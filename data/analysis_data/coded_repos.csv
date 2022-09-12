@@ -1,0 +1,738 @@
+id,org_name,full_name,link,type,scope,use_case,audience,amb_desc,amb_links,amb_badgerelpkg,disc_description,disc_features,disc_usage,part_message,part_contact,part_details
+138211691,Axios,axiosvisuals/2018-06-18-four-globes,https://github.com/axiosvisuals/2018-06-18-four-globes/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+131467041,Bustle,bustle/streaming-iterables,https://github.com/bustle/streaming-iterables/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+34290534,USA Today,USATODAY/facebook-moderated-comments,https://github.com/USATODAY/facebook-moderated-comments/,News Interaction Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+40501530,BuzzFeed,buzzfeed/pyh3,https://github.com/buzzfeed/pyh3/,News Production Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+109272032,The Philadelphia Inquirer,phillymedia/helmets-longform,https://github.com/phillymedia/helmets-longform/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+32106028,USA Today,USATODAY/race-together-quiz,https://github.com/USATODAY/race-together-quiz/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+88195369,The Miami Herald,MiamiHerald/accuweather-stormdata-test,https://github.com/MiamiHerald/accuweather-stormdata-test/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+185702809,NBC News,nbcnews/SwiftFP,https://github.com/nbcnews/SwiftFP/,News Distribution Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+3518295,The Atlantic,theatlantic/django-mysqlndb-backend,https://github.com/theatlantic/django-mysqlndb-backend/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+72795508,The Oregonian,TheOregonian/data_stories,https://github.com/TheOregonian/data_stories/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+2125782,The Atlantic,theatlantic/django-chosen,https://github.com/theatlantic/django-chosen/,General-Purpose Technology,Minor,External,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+33943002,New York Magazine,nymag/gulp-folder-changed,https://github.com/nymag/gulp-folder-changed/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+141489788,Bleacher Report,br/sm-coding-challenge,https://github.com/br/sm-coding-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+16280110,Gizmodo,gawkermedia/grunt-soysauce,https://github.com/gawkermedia/grunt-soysauce/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+37377578,USA Today,USATODAY/scotus-tracker,https://github.com/USATODAY/scotus-tracker/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+82819486,The Dallas Morning News,DallasMorningNews/interactive_buz,https://github.com/DallasMorningNews/interactive_buz/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+87489855,The Los Angeles Times,datadesk/construction-jobs-analysis,https://github.com/datadesk/construction-jobs-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+28060248,The New Yorker,newyorker/github-sound-notifications,https://github.com/newyorker/github-sound-notifications/,General-Purpose Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,Yes,No
+416089846,Axios,axiosvisuals/batch-datawrapper-generator,https://github.com/axiosvisuals/batch-datawrapper-generator/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+50503998,The New York Times,nytimes/public_api_specs,https://github.com/nytimes/public_api_specs/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+184487700,The St. Louis Post-Dispatch,PostDispatchInteractive/parks,https://github.com/PostDispatchInteractive/parks/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+99627686,Politico,The-Politico/politico-megadraft-ad-plugin,https://github.com/The-Politico/politico-megadraft-ad-plugin/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,No,No,No,Yes,No,No,No
+54504407,The Orlando Sentinel,OrlandoSentinel/development-guidelines,https://github.com/OrlandoSentinel/development-guidelines/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,Yes,No,No,No
+56090802,The South Florida Sun-Sentinel,SunSentinel/florida-shapefiles,https://github.com/SunSentinel/florida-shapefiles/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+115027797,The Milwaukee Journal-Sentinel,datahub/snow,https://github.com/datahub/snow/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,Yes,No,No,No,No
+146214603,Politico,The-Politico/module_district-locator-map,https://github.com/The-Politico/module_district-locator-map/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,No,Yes,No,Yes,No,No,No
+44112330,Vox,voxmedia/sass-theme-template-loader,https://github.com/voxmedia/sass-theme-template-loader/,News Distribution Technology,Minor,External,Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+329433686,NJ Local News,njam-data/NJCI-Styles,https://github.com/njam-data/NJCI-Styles/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+257608360,CBS News,cbsinteractive/transcode-orchestrator,https://github.com/cbsinteractive/transcode-orchestrator/,News Distribution Technology,Major,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+123020031,NBC News,nbcnews/fe-coding-challenge,https://github.com/nbcnews/fe-coding-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+64788127,Vox,voxmedia/setup-vox-rig,https://github.com/voxmedia/setup-vox-rig/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+112245240,The Wall Street Journal,WSJ/two-step,https://github.com/WSJ/two-step/,News Interaction Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+422634012,The Arizona Daily Republic,Arizona-Republic-Data/vanilla-searchable-database-template,https://github.com/Arizona-Republic-Data/vanilla-searchable-database-template/,News Interaction Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+56605685,The Wall Street Journal,WSJ/scroll-watcher,https://github.com/WSJ/scroll-watcher/,News Interaction Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+9820031,NPR,nprapps/music-streams,https://github.com/nprapps/music-streams/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,No,No,Yes,No,No,No
+6987237,Bloomberg,bloomberg/chromium.bb,https://github.com/bloomberg/chromium.bb/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+34923515,Time,TimeMagazine/trademarks,https://github.com/TimeMagazine/trademarks/,News Production Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+137128357,Bleacher Report,bleacherreport/carrot,https://github.com/bleacherreport/carrot/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,No,Yes,Yes,No,No,No
+249842476,The New York Times,nytimes/covid-19-data,https://github.com/nytimes/covid-19-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+93887778,New York Magazine,nymag/clay-build-js,https://github.com/nymag/clay-build-js/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,No,Yes,Yes,No,No,No
+128420434,NPR,npr/swig,https://github.com/npr/swig/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,Yes,No,No,No
+31486100,The Boston Globe,BostonGlobe/03-01-2015-boom,https://github.com/BostonGlobe/03-01-2015-boom/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+103150939,The Guardian,guardian/gu-bechdel,https://github.com/guardian/gu-bechdel/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+91503303,CNN,cnnlabs/cnn-birdman,https://github.com/cnnlabs/cnn-birdman/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+66848124,Gizmodo,gawkermedia/aylientaxonomy,https://github.com/gawkermedia/aylientaxonomy/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+62732120,CNN,cnnlabs/cnn-hapi-logger,https://github.com/cnnlabs/cnn-hapi-logger/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+27554300,The Dallas Morning News,DallasMorningNews/card-slider,https://github.com/DallasMorningNews/card-slider/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+115567235,The Denver Post,denverpost/top-one,https://github.com/denverpost/top-one/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+16909057,Gizmodo,gawkermedia/soy,https://github.com/gawkermedia/soy/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+187671237,The Milwaukee Journal-Sentinel,datahub/the-lake-debate,https://github.com/datahub/the-lake-debate/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+86379523,Bleacher Report,bleacherreport/eslint-plugin-laws-of-the-game,https://github.com/bleacherreport/eslint-plugin-laws-of-the-game/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+183110682,CBS News,cbsinteractive/environment-swishermint-production,https://github.com/cbsinteractive/environment-swishermint-production/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+35893076,USA Today,USATODAY/letterman-farewell,https://github.com/USATODAY/letterman-farewell/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+80869394,The Associated Press,associatedpress/datakit-project,https://github.com/associatedpress/datakit-project/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+428732049,Axios,axioscode/axios-mobile-exercise,https://github.com/axioscode/axios-mobile-exercise/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+80068053,The Associated Press,associatedpress/cookiecutter-datakit-plugin,https://github.com/associatedpress/cookiecutter-datakit-plugin/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+72376284,The Los Angeles Times,datadesk/california-ccscore-analysis,https://github.com/datadesk/california-ccscore-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+217087962,The Minneapolis Star-Tribune,striblab/poll_parser,https://github.com/striblab/poll_parser/,News Production Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+76981802,Tampa Bay Times,tbtimes/s2016-legohow,https://github.com/tbtimes/s2016-legohow/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+56801251,The Orlando Sentinel,OrlandoSentinel/reusable,https://github.com/OrlandoSentinel/reusable/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+9814348,The Boston Globe,BostonGlobe/swatch-libraries,https://github.com/BostonGlobe/swatch-libraries/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+45873594,Tampa Bay Times,tbtimes/datateam,https://github.com/tbtimes/datateam/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+42749361,The New Yorker,newyorker/tny-uturn,https://github.com/newyorker/tny-uturn/,News Interaction Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+346400195,Bloomberg,bloomberg/blpdevupd,https://github.com/bloomberg/blpdevupd/,General-Purpose Technology,Major,Internal,Technical,Yes,No,Yes,No,No,No,No,No,No
+7264527,NPR,npr/potluck,https://github.com/npr/potluck/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,No,No,No,No
+46447461,USA Today,USATODAY/paris-victims,https://github.com/USATODAY/paris-victims/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,Yes,No,No,Yes,No,No,No
+144300322,BuzzFeed,BuzzFeedNews/2018-08-charlottesville-twitter-trolls,https://github.com/BuzzFeedNews/2018-08-charlottesville-twitter-trolls/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+142339763,The South Florida Sun-Sentinel,SunSentinel/fed-cash,https://github.com/SunSentinel/fed-cash/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+110263113,VICE,VICEMedia/mobile-challenge,https://github.com/VICEMedia/mobile-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+187868900,Vox,voxmedia/maestro,https://github.com/voxmedia/maestro/,General-Purpose Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+72777752,The Dallas Morning News,DallasMorningNews/dmn-elex-vote-history,https://github.com/DallasMorningNews/dmn-elex-vote-history/,News Production Technology,Minor,Internal,Technical,No,No,Yes,Yes,No,Yes,No,No,No
+55262164,The Milwaukee Journal-Sentinel,datahub/wisc-exit-polls,https://github.com/datahub/wisc-exit-polls/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+72658833,The Guardian,guardian/interactive-future50-enhancement,https://github.com/guardian/interactive-future50-enhancement/,News Production Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+411734962,CBS News,cbsinteractive/update-tfc-workspace-variable-value-action,https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,Yes,Yes,Yes,No,No,No
+247485919,CBS News,cbsinteractive/pkg,https://github.com/cbsinteractive/pkg/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,No,No,No,No
+252286506,FiveThirtyEight,fivethirtyeight/covid-19-polls,https://github.com/fivethirtyeight/covid-19-polls/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+65045917,NPR,npr/npr-one-api-js-sdk,https://github.com/npr/npr-one-api-js-sdk/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+55245806,US News & World Report,usnews/smoketest,https://github.com/usnews/smoketest/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+45430290,Vox,voxmedia/code-of-conduct,https://github.com/voxmedia/code-of-conduct/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+2697968,Chicago Tribune,newsapps/wp-project,https://github.com/newsapps/wp-project/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+182141355,NBC News,nbcnews/data-data-data,https://github.com/nbcnews/data-data-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+158415887,Axios,axioscode/carbonkeeper,https://github.com/axioscode/carbonkeeper/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,No,No,No,No
+391158409,NJ Local News,njam-data/diversity-index,https://github.com/njam-data/diversity-index/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,Yes,No,No,Yes,No,No,No
+41563099,FiveThirtyEight,fivethirtyeight/uber-tlc-foil-response,https://github.com/fivethirtyeight/uber-tlc-foil-response/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+32819089,New York Magazine,nymag/multiplex-templates,https://github.com/nymag/multiplex-templates/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,No,Yes,Yes,No,No,No
+55159625,New York Magazine,nymag/generator-clay-component,https://github.com/nymag/generator-clay-component/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+71405677,The Oregonian,TheOregonian/election-results-2014,https://github.com/TheOregonian/election-results-2014/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+200912067,The St. Louis Post-Dispatch,PostDispatchInteractive/appraisals,https://github.com/PostDispatchInteractive/appraisals/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+70739640,The New York Times,nytimes/kyt-starter-static,https://github.com/nytimes/kyt-starter-static/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,Yes,No,No
+83845852,Slate,slategroup/olk15RecentAddresses,https://github.com/slategroup/olk15RecentAddresses/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+75800631,BuzzFeed,BuzzFeedNews/2016-12-medicare-claims-analysis,https://github.com/BuzzFeedNews/2016-12-medicare-claims-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+338460917,The San Diego Union-Tribune,sdut-datadesk/veil-of-darkness-sdpd,https://github.com/sdut-datadesk/veil-of-darkness-sdpd/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+55796613,The Milwaukee Journal-Sentinel,datahub/beer-near,https://github.com/datahub/beer-near/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+53078760,The Associated Press,associatedpress/bls_api,https://github.com/associatedpress/bls_api/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+68964802,The Miami Herald,MiamiHerald/data-viz_capital-punishment-cases,https://github.com/MiamiHerald/data-viz_capital-punishment-cases/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,Yes,Yes,No
+28981446,The Washington Post,washingtonpost/data-equitable-sharing-spending,https://github.com/washingtonpost/data-equitable-sharing-spending/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,Yes,Yes,No
+44633692,The Baltimore Sun,baltimore-sun-data/fec-mapper,https://github.com/baltimore-sun-data/fec-mapper/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+361792878,VICE,VICEMedia/api-interview-challenge,https://github.com/VICEMedia/api-interview-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,No,No,No,No,No
+58224709,Mashable,mashable/thumbor_flexible_validation,https://github.com/mashable/thumbor_flexible_validation/,News Distribution Technology,Minor,Internal,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+143444244,The Associated Press,associatedpress/verify-dkim,https://github.com/associatedpress/verify-dkim/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+25650721,Insider,businessinsider/verja,https://github.com/businessinsider/verja/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+89634824,The Miami Herald,MiamiHerald/guides,https://github.com/MiamiHerald/guides/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+77000329,The Seattle Times,seattletimes/christmas-banner,https://github.com/seattletimes/christmas-banner/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+19838193,The Boston Globe,BostonGlobe/data_utilities,https://github.com/BostonGlobe/data_utilities/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+119405208,The New York Daily News,nydailynews/superbowl,https://github.com/nydailynews/superbowl/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+88550350,The Oregonian,TheOregonian/long-term-care-db,https://github.com/TheOregonian/long-term-care-db/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+140004026,The Houston Chronicle,Houston-Chronicle/2018-school-report-card-data,https://github.com/Houston-Chronicle/2018-school-report-card-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+35837761,USA Today,USATODAY/emoji-sentence-generator,https://github.com/USATODAY/emoji-sentence-generator/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,Yes,No,No,No
+49605114,Refinery29,refinery29/highwind,https://github.com/refinery29/highwind/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+79459991,BuzzFeed,BuzzFeedNews/trumpworld,https://github.com/BuzzFeedNews/trumpworld/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes
+365911093,Reuters,reuters-graphics/chart-module-india-covid-cartogram,https://github.com/reuters-graphics/chart-module-india-covid-cartogram/,News Production Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,Yes,No,No,No
+9038795,Chicago Tribune,newsapps/deploy-tools,https://github.com/newsapps/deploy-tools/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+74594202,The Milwaukee Journal-Sentinel,datahub/book-guide-2016,https://github.com/datahub/book-guide-2016/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+64430046,Bustle,bustle/dynamo-graph,https://github.com/bustle/dynamo-graph/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+396079069,CBS News,cbsinteractive/check-branch-name-action,https://github.com/cbsinteractive/check-branch-name-action/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,Yes,Yes,No,No,No
+114565485,The Philadelphia Inquirer,phillymedia/speedy-tree,https://github.com/phillymedia/speedy-tree/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+52552483,FiveThirtyEight,fivethirtyeight/oscar-ads,https://github.com/fivethirtyeight/oscar-ads/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+368901668,NJ Local News,njam-data/tools,https://github.com/njam-data/tools/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,No,Yes,No,No,No
+160723870,The South Florida Sun-Sentinel,SunSentinel/sunsentinel-altair-theme,https://github.com/SunSentinel/sunsentinel-altair-theme/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+92087685,The Baltimore Sun,baltimore-sun-data/maryland-salaries,https://github.com/baltimore-sun-data/maryland-salaries/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+416802605,Axios,axiosvisuals/2021-10-13-nfl-power-rankings,https://github.com/axiosvisuals/2021-10-13-nfl-power-rankings/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+289250905,CBS News,cbsinteractive/hawkeye,https://github.com/cbsinteractive/hawkeye/,News Distribution Technology,Major,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+21447782,The Dallas Morning News,DallasMorningNews/IRS-statistic-of-income,https://github.com/DallasMorningNews/IRS-statistic-of-income/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+90392623,The San Francisco Chronicle,sfchronicle/foster-shelters-inline,https://github.com/sfchronicle/foster-shelters-inline/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+32997077,New York Magazine,nymag/responsive-filenames,https://github.com/nymag/responsive-filenames/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+67748042,Chicago Tribune,newsapps/tribune-bootstrap-3-js,https://github.com/newsapps/tribune-bootstrap-3-js/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+248377635,Reuters,reuters-graphics/bluprint_github-action-scraper,https://github.com/reuters-graphics/bluprint_github-action-scraper/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+152055079,The Baltimore Sun,baltimore-sun-data/bridge-data,https://github.com/baltimore-sun-data/bridge-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+194933868,NBC News,nbcnews/alpinelib,https://github.com/nbcnews/alpinelib/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,No,No,No,No
+56171003,The St. Louis Post-Dispatch,PostDispatchInteractive/guide-to-messy-data,https://github.com/PostDispatchInteractive/guide-to-messy-data/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+214506285,Bloomberg,bloomberg/xcdiff,https://github.com/bloomberg/xcdiff/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+94719813,The Dallas Morning News,DallasMorningNews/interactive_new-moms,https://github.com/DallasMorningNews/interactive_new-moms/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+114565670,The Atlantic,theatlantic/silverweasel,https://github.com/theatlantic/silverweasel/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+14387389,The Denver Post,denverpost/blackforesthomes-beforeandafter,https://github.com/denverpost/blackforesthomes-beforeandafter/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+142912633,The Associated Press,associatedpress/apdatacheck,https://github.com/associatedpress/apdatacheck/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes
+99633271,Politico,The-Politico/politico-megadraft-code-plugin,https://github.com/The-Politico/politico-megadraft-code-plugin/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,No,No,Yes,No,No,No
+105021595,The Philadelphia Inquirer,phillymedia/amazon-ranking,https://github.com/phillymedia/amazon-ranking/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+344881957,Atlanta Journal-Constitution,ajcnews/daily_bankruptcy_trends,https://github.com/ajcnews/daily_bankruptcy_trends/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+42434656,Refinery29,refinery29/league-lazy-event,https://github.com/refinery29/league-lazy-event/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes
+203236663,NJ Local News,njam-data/Erin-NJAM-archive,https://github.com/njam-data/Erin-NJAM-archive/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+130108910,The Philadelphia Inquirer,phillymedia/witnesses,https://github.com/phillymedia/witnesses/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+99712196,Bloomberg,bloomberg/pycsvw,https://github.com/bloomberg/pycsvw/,General-Purpose Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+84877496,The Atlantic,theatlantic/django-polymorphic-foreignkey,https://github.com/theatlantic/django-polymorphic-foreignkey/,News Distribution Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,Yes,No,No,No
+40423388,The Orlando Sentinel,OrlandoSentinel/TabsOnTallahassee,https://github.com/OrlandoSentinel/TabsOnTallahassee/,News Production Technology,Major,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+55576537,BuzzFeed,buzzfeed-openlab/dogbot,https://github.com/buzzfeed-openlab/dogbot/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,No,No,No,No
+36325851,Time,TimeMagazine/natural_disasters,https://github.com/TimeMagazine/natural_disasters/,News Production Technology,Minor,External,Non-Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+96549206,The New York Daily News,nydailynews/interactive-hub,https://github.com/nydailynews/interactive-hub/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,No,No,No,No,No
+34663707,The Guardian,guardian/interactive-witness-template,https://github.com/guardian/interactive-witness-template/,News Production Technology,Minor,Internal,Technical,No,Yes,No,No,No,Yes,No,No,No
+206612866,Pop Sugar,PopSugar/parsemutex,https://github.com/PopSugar/parsemutex/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,No,No,Yes,No,No,No
+132262492,The Atlantic,theatlantic/django-selenosis,https://github.com/theatlantic/django-selenosis/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+56316428,The St. Louis Post-Dispatch,PostDispatchInteractive/visuals-workflow-documentation,https://github.com/PostDispatchInteractive/visuals-workflow-documentation/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+211985518,Politico,The-Politico/template_lambda-next-bakery,https://github.com/The-Politico/template_lambda-next-bakery/,News Distribution Technology,Minor,Internal,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+6001173,BuzzFeed,buzzfeed/caliendo,https://github.com/buzzfeed/caliendo/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+36759730,The Hartford Courant,hartfordcourant/traffic,https://github.com/hartfordcourant/traffic/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+66587518,The San Francisco Chronicle,sfchronicle/najee,https://github.com/sfchronicle/najee/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,Yes,No,Yes
+75310161,The Milwaukee Journal-Sentinel,datahub/interactive-starter-kit,https://github.com/datahub/interactive-starter-kit/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+120677727,The Houston Chronicle,Houston-Chronicle/rtk,https://github.com/Houston-Chronicle/rtk/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+366585352,NJ Local News,njam-data/railroad-crossing-incidents,https://github.com/njam-data/railroad-crossing-incidents/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+29357786,The Denver Post,denverpost/dpo-blogs-server,https://github.com/denverpost/dpo-blogs-server/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+65090638,Time,TimeMagazine/CommonJSON,https://github.com/TimeMagazine/CommonJSON/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+54150888,The Dallas Morning News,DallasMorningNews/gulp-archieml,https://github.com/DallasMorningNews/gulp-archieml/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+108881892,VICE,VICEMedia/dynaflow,https://github.com/VICEMedia/dynaflow/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+84494097,The Atlantic,theatlantic/django-admin-testutils,https://github.com/theatlantic/django-admin-testutils/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,No,No,No,No
+4328408,Refinery29,refinery29/bento,https://github.com/refinery29/bento/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+11982602,Pop Sugar,PopSugar/php-yesmail-api,https://github.com/PopSugar/php-yesmail-api/,News Distribution Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes
+79505418,The Associated Press,associatedpress/cookiecutter-r-project,https://github.com/associatedpress/cookiecutter-r-project/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+99168249,The Seattle Times,seattletimes/bad-intersections,https://github.com/seattletimes/bad-intersections/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+89260396,The Miami Herald,MiamiHerald/data-viz_fl-hurricane-tracker,https://github.com/MiamiHerald/data-viz_fl-hurricane-tracker/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No
+77255740,The San Francisco Chronicle,sfchronicle/cow-palace,https://github.com/sfchronicle/cow-palace/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+31331755,The Associated Press,associatedpress/geomancer-deploy,https://github.com/associatedpress/geomancer-deploy/,News Production Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+10608953,The Atlantic,theatlantic/django-autosave,https://github.com/theatlantic/django-autosave/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+100069154,The Boston Globe,BostonGlobe/liquor-licenses-2,https://github.com/BostonGlobe/liquor-licenses-2/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+16812075,The Associated Press,TheAssociatedPress/APISamples,https://github.com/TheAssociatedPress/APISamples/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+91505215,CNN,cnnlabs/cnn-starter,https://github.com/cnnlabs/cnn-starter/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,Yes,No,No,No
+137775876,The South Florida Sun-Sentinel,SunSentinel/generator-sunsentinel-interactives,https://github.com/SunSentinel/generator-sunsentinel-interactives/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+43164264,The Boston Globe,BostonGlobe/globe-css-generator,https://github.com/BostonGlobe/globe-css-generator/,News Distribution Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+110883968,Politico,The-Politico/django-kanban-budget,https://github.com/The-Politico/django-kanban-budget/,News Production Technology,Minor,External,Non-Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+94997877,Time,TimeMagazine/georgia-special-election,https://github.com/TimeMagazine/georgia-special-election/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+377541747,New York Magazine,nymag/2021-voxmedia-fse-challenge,https://github.com/nymag/2021-voxmedia-fse-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+23932675,The Dallas Morning News,DallasMorningNews/cowboys-gameday-template,https://github.com/DallasMorningNews/cowboys-gameday-template/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,No,Yes,Yes,No
+21694966,Bustle,bustle/mobiledoc-kit,https://github.com/bustle/mobiledoc-kit/,News Production Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+95673318,Bustle,bustle/wordpress-exporter,https://github.com/bustle/wordpress-exporter/,News Production Technology,Minor,External,Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+111588263,The New York Daily News,nydailynews/pick-some-places,https://github.com/nydailynews/pick-some-places/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+66499005,The Dallas Morning News,DallasMorningNews/interactive_memorials,https://github.com/DallasMorningNews/interactive_memorials/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,Yes,Yes,No,No,No,No,No
+139041224,Bleacher Report,br/twocents,https://github.com/br/twocents/,News Interaction Technology,Minor,Internal,Technical,No,Yes,No,No,No,Yes,No,No,No
+191608846,FiveThirtyEight,fivethirtyeight/twitter-overlap,https://github.com/fivethirtyeight/twitter-overlap/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,Yes,Yes,No
+21975516,BBC,bbc/ShouldIT-Examples,https://github.com/bbc/ShouldIT-Examples/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,Yes,No,No,No
+320403529,Bloomberg,bloomberg/emnlp20_depsrl,https://github.com/bloomberg/emnlp20_depsrl/,General-Purpose Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+387619399,CBS News,cbsinteractive/create-tfc-workspace-action,https://github.com/cbsinteractive/create-tfc-workspace-action/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+245177509,The Baltimore Sun,baltimore-sun-data/child-support-analysis,https://github.com/baltimore-sun-data/child-support-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+65576922,Tampa Bay Times,tbtimes/lede-test-project,https://github.com/tbtimes/lede-test-project/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+44826147,The Hartford Courant,hartfordcourant/flapper-news,https://github.com/hartfordcourant/flapper-news/,Unclear,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+371407281,FiveThirtyEight,fivethirtyeight/election-results,https://github.com/fivethirtyeight/election-results/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,Yes,No,No,No,No
+150145702,Newsday,newsdaycom/stackpath-php-sdk,https://github.com/newsdaycom/stackpath-php-sdk/,General-Purpose Technology,Minor,External,Technical,No,No,Yes,Yes,Yes,Yes,Yes,No,No
+13609953,The Denver Post,denverpost/dp-twitter-page,https://github.com/denverpost/dp-twitter-page/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+75302996,The Dallas Morning News,DallasMorningNews/interactive_cowboys-gameday-2016,https://github.com/DallasMorningNews/interactive_cowboys-gameday-2016/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,Yes,Yes,No,No,No
+35530658,Bleacher Report,br/ebconfig,https://github.com/br/ebconfig/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+56675511,BBC,bbc/hive-appium,https://github.com/bbc/hive-appium/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,Yes,No,No,No
+2139028,The Los Angeles Times,datadesk/jquery-geocodify,https://github.com/datadesk/jquery-geocodify/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+219521989,The Guardian,guardian/interactive-ge2019-analysis,https://github.com/guardian/interactive-ge2019-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+109427279,The Philadelphia Inquirer,phillymedia/puerto-rico-presenation,https://github.com/phillymedia/puerto-rico-presenation/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+63438391,The San Francisco Chronicle,sfchronicle/restauranttaxes,https://github.com/sfchronicle/restauranttaxes/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+35623652,NBC News,nbcnews/autodisablerjs,https://github.com/nbcnews/autodisablerjs/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+82201824,New York Magazine,nymag/clay-sitemaps,https://github.com/nymag/clay-sitemaps/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+90291628,The St. Louis Post-Dispatch,PostDispatchInteractive/archieml-test,https://github.com/PostDispatchInteractive/archieml-test/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+416088523,The San Diego Union-Tribune,sdut-datadesk/neighborhood-crime-2019-2020,https://github.com/sdut-datadesk/neighborhood-crime-2019-2020/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No
+128485448,The Seattle Times,seattletimes/fyiguy-car-total-census,https://github.com/seattletimes/fyiguy-car-total-census/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+6366630,Mashable,mashable/gaspar,https://github.com/mashable/gaspar/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+88777816,The Washington Post,washingtonpost/data-inaugural-committee,https://github.com/washingtonpost/data-inaugural-committee/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+110167911,VICE,VICEMedia/amazon-rust,https://github.com/VICEMedia/amazon-rust/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,Yes,Yes,No,Yes,No,No,No
+186720016,The Oregonian,TheOregonian/oil-spills,https://github.com/TheOregonian/oil-spills/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+173002918,VICE,VICEMedia/gdi-typescript-day1,https://github.com/VICEMedia/gdi-typescript-day1/,Education and Events,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+415368272,CBS News,cbsinteractive/azurermfutures-cli,https://github.com/cbsinteractive/azurermfutures-cli/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,Yes,Yes,No,Yes,No,No,No
+63364795,The Baltimore Sun,baltimore-sun-data/template-longform,https://github.com/baltimore-sun-data/template-longform/,News Production Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+426788973,The Washington Post,wpinvestigative/fema_hazard_mitigation_2021,https://github.com/wpinvestigative/fema_hazard_mitigation_2021/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+426799320,The Arizona Daily Republic,Arizona-Republic-Data/National-Forest-Project,https://github.com/Arizona-Republic-Data/National-Forest-Project/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+82081377,The New York Daily News,nydailynews/quiz-multiple-choice,https://github.com/nydailynews/quiz-multiple-choice/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+34406886,Time,TimeMagazine/county-health-rankings,https://github.com/TimeMagazine/county-health-rankings/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+55008166,The Denver Post,denverpost/special-reports,https://github.com/denverpost/special-reports/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+47854607,New York Magazine,nymag/health-check,https://github.com/nymag/health-check/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+51773915,Bustle,bustle/radql,https://github.com/bustle/radql/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+70625518,The Denver Post,denverpost/map-us-marijuana-laws,https://github.com/denverpost/map-us-marijuana-laws/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,No,No,No,No,No
+61834371,The Baltimore Sun,baltimore-sun-data/port-covington-explainer,https://github.com/baltimore-sun-data/port-covington-explainer/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+80247043,The Baltimore Sun,baltimore-sun-data/school-segregation,https://github.com/baltimore-sun-data/school-segregation/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+182101711,NPR,nprapps/barr-redaction-pixels,https://github.com/nprapps/barr-redaction-pixels/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+27844200,BuzzFeed,buzzfeed/phonon,https://github.com/buzzfeed/phonon/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,Yes,No,No,No
+91505118,CNN,cnnlabs/cnn-starter-proxy,https://github.com/cnnlabs/cnn-starter-proxy/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,No,No,No,No
+109871874,The Philadelphia Inquirer,phillymedia/multi-page-template,https://github.com/phillymedia/multi-page-template/,News Production Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+5799485,Mashable,mashable/livefyre,https://github.com/mashable/livefyre/,News Interaction Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+91504060,CNN,cnnlabs/cnn-server,https://github.com/cnnlabs/cnn-server/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,Yes,No,No,No,No
+186218993,CBS News,cbsinteractive/elemental,https://github.com/cbsinteractive/elemental/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,No,No,No,No,No,No
+31781538,IGN,ign/code-foo-2015,https://github.com/ign/code-foo-2015/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+19376825,The New Yorker,newyorker/most-popular,https://github.com/newyorker/most-popular/,News Distribution Technology,Minor,External,Non-Technical,Yes,No,No,No,No,Yes,No,No,No
+79606870,Refinery29,refinery29/js-standards,https://github.com/refinery29/js-standards/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,No,Yes,Yes,No,No,No,No,No
+21758702,Mashable,mashable/elasticsearch-query,https://github.com/mashable/elasticsearch-query/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,No,No,Yes,Yes,No,Yes
+8913808,Chicago Tribune,newsapps/chicagocrime,https://github.com/newsapps/chicagocrime/,News Interaction Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+37092993,Atlanta Journal-Constitution,ajcnews/tablemaker,https://github.com/ajcnews/tablemaker/,News Production Technology,Minor,External,Non-Technical,No,Yes,No,Yes,No,Yes,No,No,No
+35617313,NPR,nprapps/mapturner,https://github.com/nprapps/mapturner/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+2055733,Chicago Tribune,newsapps/englewood,https://github.com/newsapps/englewood/,News Production Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+395480665,NJ Local News,njam-data/nj-census-2020,https://github.com/njam-data/nj-census-2020/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,Yes,No,No,Yes,No,No,No
+69407253,The Oregonian,TheOregonian/data,https://github.com/TheOregonian/data/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+56011152,The South Florida Sun-Sentinel,SunSentinel/datatables-template,https://github.com/SunSentinel/datatables-template/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+147367603,Politico,The-Politico/mit-elections-data,https://github.com/The-Politico/mit-elections-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,No,Yes
+138336517,The Atlantic,theatlantic/citylab-data,https://github.com/theatlantic/citylab-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+139895020,The Houston Chronicle,Houston-Chronicle/flood-games,https://github.com/Houston-Chronicle/flood-games/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+42404179,Time,TimeMagazine/geographies_by_lat_long,https://github.com/TimeMagazine/geographies_by_lat_long/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,Yes,No,No
+385786747,NJ Local News,njam-data/components,https://github.com/njam-data/components/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+62077617,Bleacher Report,bleacherreport/ecto_cursor_pagination,https://github.com/bleacherreport/ecto_cursor_pagination/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes
+154355592,CNN,cnnlabs/cnn-alb-ingress-default,https://github.com/cnnlabs/cnn-alb-ingress-default/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+40019408,The Seattle Times,seattletimes/earthquake-damage,https://github.com/seattletimes/earthquake-damage/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+101796118,The Philadelphia Inquirer,phillymedia/CUNNINGHAM,https://github.com/phillymedia/CUNNINGHAM/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+242610640,US News & World Report,usnews/blog-samples,https://github.com/usnews/blog-samples/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+113025896,Gizmodo,gawkermedia/sbt-docker-compose,https://github.com/gawkermedia/sbt-docker-compose/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+34757947,The Dallas Morning News,DallasMorningNews/sportsday-top-recruits,https://github.com/DallasMorningNews/sportsday-top-recruits/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+105780656,The South Florida Sun-Sentinel,SunSentinel/p2p-builder,https://github.com/SunSentinel/p2p-builder/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+6556103,The St. Louis Post-Dispatch,PostDispatchInteractive/quizMaker,https://github.com/PostDispatchInteractive/quizMaker/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+69259158,The Daily Beast,dailybeast/subreddit_analysis,https://github.com/dailybeast/subreddit_analysis/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+93900125,The Philadelphia Inquirer,phillymedia/avalanche,https://github.com/phillymedia/avalanche/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+115342247,The Atlantic,theatlantic/jsdoc-plugins,https://github.com/theatlantic/jsdoc-plugins/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,No,No,Yes,No,No,No
+93061789,Axios,axiosvisuals/watergate-timeline,https://github.com/axiosvisuals/watergate-timeline/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+185204157,Gizmodo,gawkermedia/java-checkstyles,https://github.com/gawkermedia/java-checkstyles/,Unclear,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+61142195,Bleacher Report,br/kick-me-to,https://github.com/br/kick-me-to/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+340155157,The Los Angeles Times,datadesk/california-coronavirus-scrapers,https://github.com/datadesk/california-coronavirus-scrapers/,News Production Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+411470255,CBS News,cbsinteractive/delete-tfc-workspace-action,https://github.com/cbsinteractive/delete-tfc-workspace-action/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+94505403,The San Francisco Chronicle,sfchronicle/transchild,https://github.com/sfchronicle/transchild/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+69236039,BBC,bbc/webaudio.prototyping.bbc.co.uk,https://github.com/bbc/webaudio.prototyping.bbc.co.uk/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No
+400848553,CBS News,cbsinteractive/azurermfutures-go,https://github.com/cbsinteractive/azurermfutures-go/,General-Purpose Technology,Minor,Internal,Technical,No,No,No,Yes,No,No,No,No,No
+191820625,The Minneapolis Star-Tribune,striblab/20191111-veterans,https://github.com/striblab/20191111-veterans/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+214511973,Bloomberg,bloomberg/corokafka,https://github.com/bloomberg/corokafka/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+17996684,The Boston Globe,BostonGlobe/04-01-2014_whyIRun,https://github.com/BostonGlobe/04-01-2014_whyIRun/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+402151770,VICE,VICEMedia/api-assignment,https://github.com/VICEMedia/api-assignment/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,No,No,No,No,No
+118598645,BuzzFeed,BuzzFeedNews/2018-01-trump-twitter-wars,https://github.com/BuzzFeedNews/2018-01-trump-twitter-wars/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+747722,Chicago Tribune,newsapps/beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+88751678,Politico,The-Politico/jobs,https://github.com/The-Politico/jobs/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+118192831,The Seattle Times,seattletimes/million-homeCount,https://github.com/seattletimes/million-homeCount/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+4487510,Chicago Tribune,newsapps/layercake,https://github.com/newsapps/layercake/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,No,No,No,No
+92236650,BuzzFeed,BuzzFeedNews/2017-05-us-health-care,https://github.com/BuzzFeedNews/2017-05-us-health-care/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+381114728,NPR,nprapps/autocomplete-input,https://github.com/nprapps/autocomplete-input/,News Interaction Technology,Minor,Internal,Non-Technical,No,Yes,No,Yes,No,No,No,No,No
+606437,The New York Times,nytimes/lifeline,https://github.com/nytimes/lifeline/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+126023022,New York Magazine,nymag/medusa,https://github.com/nymag/medusa/,General-Purpose Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+128124372,Vox,voxmedia/viz-app,https://github.com/voxmedia/viz-app/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+66501779,The Oregonian,TheOregonian/groundwater,https://github.com/TheOregonian/groundwater/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+12951739,NPR,nprapps/chromecast-test,https://github.com/nprapps/chromecast-test/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+92196225,The South Florida Sun-Sentinel,SunSentinel/starterkit,https://github.com/SunSentinel/starterkit/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+78683275,Tampa Bay Times,tbtimes/s2017_NFL_Gallery,https://github.com/tbtimes/s2017_NFL_Gallery/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+32753369,The Wall Street Journal,WSJ/the-meta-tag-checker,https://github.com/WSJ/the-meta-tag-checker/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+33878667,Vox,voxmedia/autotune-image-slider,https://github.com/voxmedia/autotune-image-slider/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,No,Yes,Yes,No,No,No,No
+342375970,FiveThirtyEight,fivethirtyeight/negro-leagues-player-ratings,https://github.com/fivethirtyeight/negro-leagues-player-ratings/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+193516494,Slate,slategroup/golem,https://github.com/slategroup/golem/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+78590713,The Milwaukee Journal-Sentinel,datahub/great-lakes-pipeline-intro,https://github.com/datahub/great-lakes-pipeline-intro/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+56011724,The South Florida Sun-Sentinel,SunSentinel/quiz-template,https://github.com/SunSentinel/quiz-template/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,No,No,No,No,No,No
+63630097,The Los Angeles Times,datadesk/django-bigbuild,https://github.com/datadesk/django-bigbuild/,News Production Technology,Major,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+409363031,IGN,ign/react-challenge,https://github.com/ign/react-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+190929709,The Los Angeles Times,datadesk/altair-election-maps-example,https://github.com/datadesk/altair-election-maps-example/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,Yes,Yes,No,No,No,No,No
+15815473,Newsday,newsday/newstools-checkup,https://github.com/newsday/newstools-checkup/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,No,No,No,No
+6924158,NPR,nprapps/in-memoriam,https://github.com/nprapps/in-memoriam/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+40331350,The San Francisco Chronicle,sfchronicle/pillars-among-the-ruins,https://github.com/sfchronicle/pillars-among-the-ruins/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+40139536,The Hartford Courant,hartfordcourant/trending,https://github.com/hartfordcourant/trending/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+164885722,Gizmodo,gawkermedia/kinja-vpn,https://github.com/gawkermedia/kinja-vpn/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,No,No,No,No
+77148914,VICE,VICEMedia/backend-date-challenge,https://github.com/VICEMedia/backend-date-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+329254435,Reuters,reuters-graphics/chart-module-vaccination-cumulative,https://github.com/reuters-graphics/chart-module-vaccination-cumulative/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,No,No,Yes,No,No,No
+38014198,Atlanta Journal-Constitution,ajcnews/sql-bakery,https://github.com/ajcnews/sql-bakery/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+120337144,The Baltimore Sun,baltimore-sun-data/voter-guide-2018,https://github.com/baltimore-sun-data/voter-guide-2018/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,Yes,Yes,No,No,No
+111955978,The Baltimore Sun,baltimore-sun-data/task-force-org,https://github.com/baltimore-sun-data/task-force-org/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,No,No,No,No,No
+155455117,NBC News,nbcnews/brslint,https://github.com/nbcnews/brslint/,News Distribution Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+53977720,Bloomberg,bloomberg-cookbooks/rc,https://github.com/bloomberg-cookbooks/rc/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+251353916,Bloomberg,bloomberg/record-tuple-polyfill,https://github.com/bloomberg/record-tuple-polyfill/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+25837111,Tampa Bay Times,tbtimes/election-tables,https://github.com/tbtimes/election-tables/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+94933498,The New York Daily News,nydailynews/russia-connex,https://github.com/nydailynews/russia-connex/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,No,Yes,No,No,No
+64790337,The Baltimore Sun,baltimore-sun-data/template-graphics-package,https://github.com/baltimore-sun-data/template-graphics-package/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,No,No,No,No
+75206649,The Miami Herald,MiamiHerald/data-viz_miami-dade-opioid-overdoses,https://github.com/MiamiHerald/data-viz_miami-dade-opioid-overdoses/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+69042090,The Miami Herald,MiamiHerald/florida-topojson-sources,https://github.com/MiamiHerald/florida-topojson-sources/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,Yes,No
+164877562,The Minneapolis Star-Tribune,striblab/201901-achievementgap,https://github.com/striblab/201901-achievementgap/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,Yes,No,No,No
+58749956,The Washington Post,washingtonpost/docker-ecs,https://github.com/washingtonpost/docker-ecs/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+59589494,The Boston Globe,BostonGlobe/trump-transcripts,https://github.com/BostonGlobe/trump-transcripts/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+21754465,The New York Times,nytimes/license,https://github.com/nytimes/license/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+21584448,Vox,voxmedia/varniphite,https://github.com/voxmedia/varniphite/,News Distribution Technology,Minor,External,Technical,No,No,No,Yes,Yes,Yes,No,No,No
+60859589,The Baltimore Sun,baltimore-sun-data/collateral_damage_splash,https://github.com/baltimore-sun-data/collateral_damage_splash/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+91503546,CNN,cnnlabs/cnn-react-generators,https://github.com/cnnlabs/cnn-react-generators/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,No,No,No,No
+63086721,Vox,voxmedia/accessibility,https://github.com/voxmedia/accessibility/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes
+25485384,Refinery29,refinery29/ooyala-test-page-r29,https://github.com/refinery29/ooyala-test-page-r29/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+8807106,The Washington Post,washingtonpost/datawrapper,https://github.com/washingtonpost/datawrapper/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,No,No,No,No,No,No
+142727055,Bustle,bustle/nemesis-db,https://github.com/bustle/nemesis-db/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+202610937,Gizmodo,gawkermedia/kinja-frontend-take-home-test,https://github.com/gawkermedia/kinja-frontend-take-home-test/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,Yes,Yes,No,No,No
+136962595,The South Florida Sun-Sentinel,SunSentinel/flcampaigncash,https://github.com/SunSentinel/flcampaigncash/,News Production Technology,Minor,External,Non-Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+30252099,Chicago Tribune,newsapps/bing-bulk-geocoder,https://github.com/newsapps/bing-bulk-geocoder/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+101085575,The Minneapolis Star-Tribune,striblab/mn-elections,https://github.com/striblab/mn-elections/,News Production Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+355353485,NJ Local News,njam-data/nj-use-of-force-data,https://github.com/njam-data/nj-use-of-force-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+142341235,The New York Daily News,nydailynews/data,https://github.com/nydailynews/data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+102775781,The Seattle Times,seattletimes/pac12-power-2017,https://github.com/seattletimes/pac12-power-2017/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+2462482,Pop Sugar,PopSugar/Impermium-PHP,https://github.com/PopSugar/Impermium-PHP/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+58970727,The Wall Street Journal,WSJ/ballot-tally,https://github.com/WSJ/ballot-tally/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+159256062,Tampa Bay Times,tbtimes/florida-heart-surgery-analysis,https://github.com/tbtimes/florida-heart-surgery-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+271593767,Vox,voxmedia/data-privacy-compliance,https://github.com/voxmedia/data-privacy-compliance/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,Yes,Yes,No,Yes,No,No,No
+375765080,Politico,The-Politico/tool_thoth,https://github.com/The-Politico/tool_thoth/,News Production Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+17283864,The Guardian,guardian/scribe-plugin-blockquote-command,https://github.com/guardian/scribe-plugin-blockquote-command/,News Production Technology,Minor,Internal,Non-Technical,No,No,Yes,No,No,No,No,No,No
+125409119,The Daily Beast,dailybeast/mobiledoc-react-renderer,https://github.com/dailybeast/mobiledoc-react-renderer/,News Production Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+16922771,Gizmodo,gawkermedia/big-assets,https://github.com/gawkermedia/big-assets/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+94148275,The San Francisco Chronicle,sfchronicle/warriors_gallery,https://github.com/sfchronicle/warriors_gallery/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+128975451,The Philadelphia Inquirer,phillymedia/booker,https://github.com/phillymedia/booker/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+11036921,Chicago Tribune,newsapps/p2p_test,https://github.com/newsapps/p2p_test/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+41364549,The Washington Post,washingtonpost/wp-java-checkstyle,https://github.com/washingtonpost/wp-java-checkstyle/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,No,No,No,No
+64246365,The Denver Post,denverpost/wordpress-helpers,https://github.com/denverpost/wordpress-helpers/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,Yes,No,No,No
+225451363,The Daily Beast,dailybeast/parcel-envkey-plugin,https://github.com/dailybeast/parcel-envkey-plugin/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+405942392,BBC,bbc/audio-orchestration,https://github.com/bbc/audio-orchestration/,News Distribution Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+37349002,The Denver Post,denverpost/restaurant-review-project,https://github.com/denverpost/restaurant-review-project/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+19354992,The St. Louis Post-Dispatch,PostDispatchInteractive/quizConverter,https://github.com/PostDispatchInteractive/quizConverter/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,No,No,No,No
+51153751,The Guardian,guardian/interactive-flooding,https://github.com/guardian/interactive-flooding/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+142221815,The Los Angeles Times,datadesk/nyrb-covers-analysis,https://github.com/datadesk/nyrb-covers-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+41713561,Bustle,bustle/shep,https://github.com/bustle/shep/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+95996623,Axios,axiosvisuals/fow-wages-scatterplot,https://github.com/axiosvisuals/fow-wages-scatterplot/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,Yes,No,No,No
+114162924,Refinery29,refinery29/hackathon-seer,https://github.com/refinery29/hackathon-seer/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,Yes,No,No,No
+62309593,Time,TimeMagazine/usflag,https://github.com/TimeMagazine/usflag/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+21285178,Time,TimeMagazine/redistrict_america,https://github.com/TimeMagazine/redistrict_america/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,Yes,No,No,No,No
+47366468,The Wall Street Journal,WSJ/squaire,https://github.com/WSJ/squaire/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes
+37628287,The Milwaukee Journal-Sentinel,datahub/django-staggered-selects,https://github.com/datahub/django-staggered-selects/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,No,No,No,No
+50586434,BBC,bbc/newsspec_13203,https://github.com/bbc/newsspec_13203/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,Yes,No,No,No
+89718086,The Philadelphia Inquirer,phillymedia/apps-modules-helpers,https://github.com/phillymedia/apps-modules-helpers/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+36875607,Refinery29,refinery29/piston,https://github.com/refinery29/piston/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+18806010,The New York Times,nytimes/pourover,https://github.com/nytimes/pourover/,News Production Technology,Major,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No
+28415601,USA Today,USATODAY/runway-incidents,https://github.com/USATODAY/runway-incidents/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+355605127,The South Florida Sun-Sentinel,SunSentinel/sfl-pet-finder,https://github.com/SunSentinel/sfl-pet-finder/,News Production Technology,Minor,Internal,Technical,No,Yes,No,Yes,No,No,No,No,No
+239859632,The Wall Street Journal,WSJ/measles-data,https://github.com/WSJ/measles-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+2549068,Chicago Tribune,newsapps/wordpress-mtv,https://github.com/newsapps/wordpress-mtv/,News Distribution Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+34286194,Chicago Tribune,newsapps/flask-slackunfuddle,https://github.com/newsapps/flask-slackunfuddle/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,No,No,No,No
+6552187,The St. Louis Post-Dispatch,PostDispatchInteractive/quizReader,https://github.com/PostDispatchInteractive/quizReader/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,Yes,No,No,No,No
+191583402,Atlanta Journal-Constitution,ajcnews/internet_speeds_GA,https://github.com/ajcnews/internet_speeds_GA/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+145626426,The San Francisco Chronicle,sfchronicle/cult-wine,https://github.com/sfchronicle/cult-wine/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+3112500,The Boston Globe,BostonGlobe/snip,https://github.com/BostonGlobe/snip/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+238956437,The Baltimore Sun,baltimore-sun-data/baltimore-police-overtime,https://github.com/baltimore-sun-data/baltimore-police-overtime/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+34866289,The Hartford Courant,hartfordcourant/uconn_scoreboards,https://github.com/hartfordcourant/uconn_scoreboards/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,No,No,No,No
+117768741,The San Francisco Chronicle,sfchronicle/project-pages,https://github.com/sfchronicle/project-pages/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+61765191,CNN,cnnlabs/organization-docs,https://github.com/cnnlabs/organization-docs/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+19516788,NPR,nprapps/visits,https://github.com/nprapps/visits/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+111455405,Forbes,forbes/ad-inspector,https://github.com/forbes/ad-inspector/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+138189206,Refinery29,refinery29/facebook-embed-examples,https://github.com/refinery29/facebook-embed-examples/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+163877477,NJ Local News,njam-data/acs-pandas-dataflow,https://github.com/njam-data/acs-pandas-dataflow/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+197655549,The Dallas Morning News,dallasnews/edit-story-button,https://github.com/dallasnews/edit-story-button/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+241257303,The Buffalo News,buffalo-news/coding-challenges,https://github.com/buffalo-news/coding-challenges/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+29256741,USA Today,USATODAY/movie-awards-2014,https://github.com/USATODAY/movie-awards-2014/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+33539900,The Guardian,guardian/interactive-election-nav,https://github.com/guardian/interactive-election-nav/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+178018053,The Los Angeles Times,datadesk/census-map-consolidator,https://github.com/datadesk/census-map-consolidator/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+33013676,New York Magazine,nymag/grok,https://github.com/nymag/grok/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+169727234,BBC,bbc/http-transport-circuit-breaker,https://github.com/bbc/http-transport-circuit-breaker/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+197425503,The Associated Press,associatedpress/datakit-github,https://github.com/associatedpress/datakit-github/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+34917676,The Hartford Courant,hartfordcourant/mytowns_headlines,https://github.com/hartfordcourant/mytowns_headlines/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,No,No,No,No
+47583734,BuzzFeed,BuzzFeedNews/2015-12-fatal-police-shootings,https://github.com/BuzzFeedNews/2015-12-fatal-police-shootings/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+35053346,The St. Louis Post-Dispatch,PostDispatchInteractive/app-template,https://github.com/PostDispatchInteractive/app-template/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+58661092,BuzzFeed,BuzzFeedNews/2016-05-H-2-debarments-and-violations,https://github.com/BuzzFeedNews/2016-05-H-2-debarments-and-violations/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+60732166,Vox,voxmedia/Volume_folder_report_generator,https://github.com/voxmedia/Volume_folder_report_generator/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+146630563,Refinery29,refinery29/ghost-inspector-tests,https://github.com/refinery29/ghost-inspector-tests/,News Distribution Technology,Minor,Internal,Technical,No,No,No,Yes,No,No,No,No,No
+290303266,The Seattle Times,seattletimes/2020-student-voices-survey,https://github.com/seattletimes/2020-student-voices-survey/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+50654712,The Guardian,guardian/auditing-thrift-model,https://github.com/guardian/auditing-thrift-model/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+349233798,The San Diego Union-Tribune,sdut-datadesk/hit-rate-analysis-sdpd,https://github.com/sdut-datadesk/hit-rate-analysis-sdpd/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+405238035,The San Diego Union-Tribune,sdut-datadesk/tweet-content-analysis,https://github.com/sdut-datadesk/tweet-content-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+155460913,Bleacher Report,bleacherreport/Velocidapter,https://github.com/bleacherreport/Velocidapter/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+206879599,The Associated Press,associatedpress/datakit-dworld,https://github.com/associatedpress/datakit-dworld/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+184620804,The Guardian,guardian/interactive-eu-elections-preview,https://github.com/guardian/interactive-eu-elections-preview/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+120480360,The Baltimore Sun,baltimore-sun-data/csv2json,https://github.com/baltimore-sun-data/csv2json/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+12629060,Slate,slategroup/jsontoken-osgi,https://github.com/slategroup/jsontoken-osgi/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,No,No,No,No
+2927239,The Los Angeles Times,datadesk/python-elections,https://github.com/datadesk/python-elections/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+232622885,The South Florida Sun-Sentinel,SunSentinel/voterfocus-campfin-scraper,https://github.com/SunSentinel/voterfocus-campfin-scraper/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+60205811,The Oregonian,TheOregonian/portland-school-lead-tests,https://github.com/TheOregonian/portland-school-lead-tests/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+363180677,NJ Local News,njam-data/nj-deeds,https://github.com/njam-data/nj-deeds/,News Production Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+109420277,BuzzFeed,BuzzFeedNews/2017-11-gun-sales-estimates,https://github.com/BuzzFeedNews/2017-11-gun-sales-estimates/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+412491389,Bloomberg,bloomberg/fast-noise-aware-topic-clustering,https://github.com/bloomberg/fast-noise-aware-topic-clustering/,General-Purpose Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+417266864,NJ Local News,njam-data/nj-legislative-districts,https://github.com/njam-data/nj-legislative-districts/,News Production Technology,Minor,External,Non-Technical,No,Yes,Yes,Yes,No,Yes,No,No,No
+30601043,USA Today,USATODAY/friday13,https://github.com/USATODAY/friday13/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+152101869,The Houston Chronicle,Houston-Chronicle/2018-voter-guide,https://github.com/Houston-Chronicle/2018-voter-guide/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+58658300,The Milwaukee Journal-Sentinel,datahub/traffic-frontend,https://github.com/datahub/traffic-frontend/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+341334577,FiveThirtyEight,fivethirtyeight/police-settlements,https://github.com/fivethirtyeight/police-settlements/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+7136416,Complex,complexmag/require-jquery,https://github.com/complexmag/require-jquery/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+72210679,Gizmodo,gawkermedia/traverse-dom,https://github.com/gawkermedia/traverse-dom/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+69393004,The San Francisco Chronicle,sfchronicle/rooftops,https://github.com/sfchronicle/rooftops/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+272452225,VICE,VICEMedia/informationsystems__php-backend-test,https://github.com/VICEMedia/informationsystems__php-backend-test/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+106053604,BuzzFeed,buzzfeed-openlab/sms-fortune-cookie,https://github.com/buzzfeed-openlab/sms-fortune-cookie/,News Interaction Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+48060472,The New York Times,nytimes/gizmo,https://github.com/nytimes/gizmo/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+108594172,The New York Daily News,nydailynews/hurricane-sandy-compare,https://github.com/nydailynews/hurricane-sandy-compare/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+69012789,BBC,bbc/gel-grid.css,https://github.com/bbc/gel-grid.css/,News Distribution Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+190094441,The Oregonian,TheOregonian/osha,https://github.com/TheOregonian/osha/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+93083839,CNN,cnnlabs/cnn-starter-packages,https://github.com/cnnlabs/cnn-starter-packages/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+44837876,VICE,VICEMedia/exercise-frontend,https://github.com/VICEMedia/exercise-frontend/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+123327490,New York Magazine,nymag/elasticsearch-streamer,https://github.com/nymag/elasticsearch-streamer/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+274422610,The Washington Post,wpinvestigative/helicopters_dc,https://github.com/wpinvestigative/helicopters_dc/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+144766300,The Houston Chronicle,Houston-Chronicle/flood-bonds-2018,https://github.com/Houston-Chronicle/flood-bonds-2018/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+139909037,The Houston Chronicle,Houston-Chronicle/2018-school-report-card,https://github.com/Houston-Chronicle/2018-school-report-card/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+354612820,Reuters,reuters-graphics/graphics-kit-publisher,https://github.com/reuters-graphics/graphics-kit-publisher/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+55427780,Bloomberg,bloomberg/repofactor,https://github.com/bloomberg/repofactor/,General-Purpose Technology,Minor,External,Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+157780055,Axios,axiosvisuals/2018-11-12-california-fires,https://github.com/axiosvisuals/2018-11-12-california-fires/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+68361833,Time,TimeMagazine/marriage_by_degrees,https://github.com/TimeMagazine/marriage_by_degrees/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+175869743,Bloomberg,bloomberg/k8eraid,https://github.com/bloomberg/k8eraid/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+85616647,BBC,bbc/umcp-speed-test,https://github.com/bbc/umcp-speed-test/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+65311269,Tampa Bay Times,tbtimes/lede,https://github.com/tbtimes/lede/,News Production Technology,Major,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+23653216,The Guardian,guardian/prout,https://github.com/guardian/prout/,General-Purpose Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+142342724,The New York Daily News,nydailynews/mta-tracker,https://github.com/nydailynews/mta-tracker/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+26462391,The Boston Globe,BostonGlobe/61fresh,https://github.com/BostonGlobe/61fresh/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,Yes,No,No,No
+103148146,The Daily Beast,dailybeast/tracking-link,https://github.com/dailybeast/tracking-link/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+193115691,The Los Angeles Times,datadesk/census-data-aggregator,https://github.com/datadesk/census-data-aggregator/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+97861040,Axios,axiosvisuals/proj-trump-global-image,https://github.com/axiosvisuals/proj-trump-global-image/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+128831080,Bustle,bustle/s3_master,https://github.com/bustle/s3_master/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes
+80761771,The Philadelphia Inquirer,phillymedia/plabor-longform,https://github.com/phillymedia/plabor-longform/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+259441535,The Minneapolis Star-Tribune,striblab/20200504-shots,https://github.com/striblab/20200504-shots/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+129445187,Axios,axioscode/diff-cover,https://github.com/axioscode/diff-cover/,General-Purpose Technology,Minor,External,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+172763428,The Minneapolis Star-Tribune,striblab/2019-klobuchar-page,https://github.com/striblab/2019-klobuchar-page/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+24933148,Bloomberg,bloomberg/chef-bach,https://github.com/bloomberg/chef-bach/,General-Purpose Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+94934053,The New York Daily News,nydailynews/aaron-judge-home-runs,https://github.com/nydailynews/aaron-judge-home-runs/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,No,No,No,No,No
+89393555,The New York Daily News,nydailynews/100-days-of-trump,https://github.com/nydailynews/100-days-of-trump/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+88781894,Bustle,bustle/ember-mobiledoc-apple-news-renderer,https://github.com/bustle/ember-mobiledoc-apple-news-renderer/,News Distribution Technology,Minor,Internal,Technical,No,Yes,Yes,No,No,Yes,No,No,No
+65317006,Tampa Bay Times,tbtimes/lede-cli,https://github.com/tbtimes/lede-cli/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+76734585,Time,TimeMagazine/census_tables_in_r,https://github.com/TimeMagazine/census_tables_in_r/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,No,No,No,No
+60215364,Tampa Bay Times,tbtimes/ledeTwo,https://github.com/tbtimes/ledeTwo/,News Production Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+295537368,The Washington Post,washingtonpost/secure-document-scanner,https://github.com/washingtonpost/secure-document-scanner/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+97056475,NBC News,nbcnews/anc-news-api,https://github.com/nbcnews/anc-news-api/,News Distribution Technology,Minor,Internal,Technical,No,Yes,Yes,No,Yes,Yes,No,No,No
+400640988,NPR,nprapps/elections21-governors,https://github.com/nprapps/elections21-governors/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,Yes,Yes,No,No,No
+119898839,The Minneapolis Star-Tribune,striblab/20180202-campfi,https://github.com/striblab/20180202-campfi/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+77150655,VICE,VICEMedia/frontend-blog-challenge,https://github.com/VICEMedia/frontend-blog-challenge/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+99717643,The San Francisco Chronicle,sfchronicle/outside-lands-timeline,https://github.com/sfchronicle/outside-lands-timeline/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+49088580,The Orlando Sentinel,OrlandoSentinel/tabs-on-tally-hackathon,https://github.com/OrlandoSentinel/tabs-on-tally-hackathon/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No
+32176669,Refinery29,refinery29/py-querystring,https://github.com/refinery29/py-querystring/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+20233851,Time,TimeMagazine/retrosheets,https://github.com/TimeMagazine/retrosheets/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,Yes,No,No,No
+152124272,The Houston Chronicle,Houston-Chronicle/new-homes-after-harvey,https://github.com/Houston-Chronicle/new-homes-after-harvey/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+90777350,Slate,slategroup/clay-behavior-editor,https://github.com/slategroup/clay-behavior-editor/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+241567981,The Philadelphia Inquirer,phillymedia/pmn-data-batch-process-for-topics,https://github.com/phillymedia/pmn-data-batch-process-for-topics/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+80551375,The Associated Press,associatedpress/datakit-core,https://github.com/associatedpress/datakit-core/,News Production Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+281775175,Reuters,reuters-graphics/react-smart-text,https://github.com/reuters-graphics/react-smart-text/,News Production Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+72669511,The Miami Herald,MiamiHerald/data-viz_us-electoral-vote-slider,https://github.com/MiamiHerald/data-viz_us-electoral-vote-slider/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No
+20105440,Refinery29,refinery29/jquery-ooyala,https://github.com/refinery29/jquery-ooyala/,News Distribution Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+86748442,New York Magazine,nymag/big-query-importer,https://github.com/nymag/big-query-importer/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,No,No,No,No
+102010793,FiveThirtyEight,fivethirtyeight/nfl-elo-game,https://github.com/fivethirtyeight/nfl-elo-game/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+31961482,The New Yorker,newyorker/photobooth-extension,https://github.com/newyorker/photobooth-extension/,News Interaction Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No
+53153077,Slate,slategroup/heroku-buildpack-mongodump,https://github.com/slategroup/heroku-buildpack-mongodump/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+200670821,The Houston Chronicle,Houston-Chronicle/teacher-turnover-charts,https://github.com/Houston-Chronicle/teacher-turnover-charts/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+134314062,The Los Angeles Times,datadesk/altair-column-sort-example,https://github.com/datadesk/altair-column-sort-example/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+77077430,CNN,cnnlabs/cnn-responsive-carousel,https://github.com/cnnlabs/cnn-responsive-carousel/,News Distribution Technology,Minor,Internal,Non-Technical,No,No,No,No,No,No,No,No,No
+44569838,The San Francisco Chronicle,sfchronicle/homelessness-map,https://github.com/sfchronicle/homelessness-map/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+150800849,BuzzFeed,BuzzFeedNews/2018-09-ftc-analysis,https://github.com/BuzzFeedNews/2018-09-ftc-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+88659764,The Denver Post,denverpost/dfm-wp-googleTagManager,https://github.com/denverpost/dfm-wp-googleTagManager/,News Distribution Technology,Minor,External,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+18680440,IGN,ign/code-foo-2014,https://github.com/ign/code-foo-2014/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+74545377,Bleacher Report,bleacherreport/example-wiremock,https://github.com/bleacherreport/example-wiremock/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+67232935,The Dallas Morning News,DallasMorningNews/django-datafreezer-deployment,https://github.com/DallasMorningNews/django-datafreezer-deployment/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,Yes,Yes,No,No,No,No,No
+94735294,Axios,axiosvisuals/2017-06-19-proj-polarized-statehouses,https://github.com/axiosvisuals/2017-06-19-proj-polarized-statehouses/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,Yes,No,No,No
+174579029,The New York Times,nytimes/library-customization-example,https://github.com/nytimes/library-customization-example/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+153182450,The South Florida Sun-Sentinel,SunSentinel/notebooks,https://github.com/SunSentinel/notebooks/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+116738022,Tampa Bay Times,tbtimes/zombie-campaigns-database,https://github.com/tbtimes/zombie-campaigns-database/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,No,No,No,No,No
+105192541,The Hartford Courant,hartfordcourant/v247,https://github.com/hartfordcourant/v247/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+109023058,The Associated Press,associatedpress/apstyle,https://github.com/associatedpress/apstyle/,News Production Technology,Minor,External,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+158447084,The Philadelphia Inquirer,phillymedia/wilmington,https://github.com/phillymedia/wilmington/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+54474628,The Atlantic,theatlantic/osp-deploy,https://github.com/theatlantic/osp-deploy/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+41039019,The Washington Post,washingtonpost/wordpress-rest-api-java-client,https://github.com/washingtonpost/wordpress-rest-api-java-client/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+208908096,The South Florida Sun-Sentinel,SunSentinel/turntable,https://github.com/SunSentinel/turntable/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,No,No,No,No,No
+149153932,Politico,The-Politico/politico-civic-ap-loader,https://github.com/The-Politico/politico-civic-ap-loader/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+78873556,NBC News,nbcnews/jetpack,https://github.com/nbcnews/jetpack/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,No,No,No,No
+139200500,Forbes,forbes/multiclamp,https://github.com/forbes/multiclamp/,News Distribution Technology,Minor,External,Non-Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+52371782,BBC,bbc/get-favicons,https://github.com/bbc/get-favicons/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+151437101,BBC,bbc/ptk-laravel-test,https://github.com/bbc/ptk-laravel-test/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+123616244,Mashable,mashable/kraken,https://github.com/mashable/kraken/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+39406582,The Denver Post,denverpost/va-hospital,https://github.com/denverpost/va-hospital/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+14314335,Time,TimeMagazine/node-astronomy,https://github.com/TimeMagazine/node-astronomy/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+42933461,The Washington Post,washingtonpost/dropwizard-liveness-reporter,https://github.com/washingtonpost/dropwizard-liveness-reporter/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+88909761,Politico,The-Politico/python-congressapi,https://github.com/The-Politico/python-congressapi/,News Production Technology,Minor,External,Non-Technical,No,Yes,No,Yes,No,Yes,No,No,No
+9152404,IGN,ign/code-foo-2013,https://github.com/ign/code-foo-2013/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,No,No,No,No
+25930011,BBC,bbc/Newsspec__8757,https://github.com/bbc/Newsspec__8757/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+68847239,Bleacher Report,bleacherreport/ecto_logger_json,https://github.com/bleacherreport/ecto_logger_json/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+46133944,Bustle,bustle/ember-mobiledoc-dom-renderer,https://github.com/bustle/ember-mobiledoc-dom-renderer/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+31622463,The Boston Globe,BostonGlobe/icerinks,https://github.com/BostonGlobe/icerinks/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+39582231,Vox,voxmedia/demo-autotune,https://github.com/voxmedia/demo-autotune/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+141730514,The New York Daily News,nydailynews/mlb-overturned-calls,https://github.com/nydailynews/mlb-overturned-calls/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+349239632,The San Diego Union-Tribune,sdut-datadesk/beat-analysis-sdpd,https://github.com/sdut-datadesk/beat-analysis-sdpd/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+61738890,Mashable,mashable/node-aws-test-utils,https://github.com/mashable/node-aws-test-utils/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+327119532,NJ Local News,njam-data/PPP-test,https://github.com/njam-data/PPP-test/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+43331998,The Seattle Times,seattletimes/election-guide-2015,https://github.com/seattletimes/election-guide-2015/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+34808164,The Seattle Times,seattletimes/homebrew,https://github.com/seattletimes/homebrew/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+54636155,The Guardian,guardian/front-pressed-lambda,https://github.com/guardian/front-pressed-lambda/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,No,No,Yes,No,No,No
+237340874,Reuters,reuters-graphics/runner,https://github.com/reuters-graphics/runner/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+105670175,The Los Angeles Times,datadesk/homeless-arrests-analysis,https://github.com/datadesk/homeless-arrests-analysis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+333267443,The San Diego Union-Tribune,sdut-datadesk/veil-of-darkness-sheriff,https://github.com/sdut-datadesk/veil-of-darkness-sheriff/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+43452190,The New Yorker,newyorker/engineering,https://github.com/newyorker/engineering/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+17919081,The New York Times,nytimes/kaichu,https://github.com/nytimes/kaichu/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,No,Yes,No,No,No,No,No
+349235552,The San Diego Union-Tribune,sdut-datadesk/hit-rate-analysis-sheriff,https://github.com/sdut-datadesk/hit-rate-analysis-sheriff/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+267890919,CNBC,cnbc/WEB.storybook-addon-figma,https://github.com/cnbc/WEB.storybook-addon-figma/,News Production Technology,Minor,External,Non-Technical,No,No,Yes,Yes,Yes,Yes,No,No,No
+175297443,The Dallas Morning News,DallasMorningNews/scraper_mlb-rookie-pitchers,https://github.com/DallasMorningNews/scraper_mlb-rookie-pitchers/,News Production Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+60112431,Bleacher Report,bleacherreport/plug_logger_json,https://github.com/bleacherreport/plug_logger_json/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+106950272,NBC News,nbcnews/octopus-vr,https://github.com/nbcnews/octopus-vr/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+71404726,The San Francisco Chronicle,sfchronicle/seafood,https://github.com/sfchronicle/seafood/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+110017831,The New York Daily News,nydailynews/shootings-since-sandy-hook,https://github.com/nydailynews/shootings-since-sandy-hook/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+100638307,The Seattle Times,seattletimes/traffic-violations,https://github.com/seattletimes/traffic-violations/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+223475128,The Minneapolis Star-Tribune,striblab/python_geojson,https://github.com/striblab/python_geojson/,News Production Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+106306410,The San Francisco Chronicle,sfchronicle/napa-sonoma-fires,https://github.com/sfchronicle/napa-sonoma-fires/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+202028987,The Oregonian,TheOregonian/opioids,https://github.com/TheOregonian/opioids/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+123989698,The Associated Press,associatedpress/national-caseload-data-ingest,https://github.com/associatedpress/national-caseload-data-ingest/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+75881696,The Miami Herald,MiamiHerald/data-viz_carto-template,https://github.com/MiamiHerald/data-viz_carto-template/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No
+27185775,The Boston Globe,BostonGlobe/snowfall-totals,https://github.com/BostonGlobe/snowfall-totals/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+76506649,The Dallas Morning News,DallasMorningNews/fec-downloader,https://github.com/DallasMorningNews/fec-downloader/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+35062911,Atlanta Journal-Constitution,ajcnews/quoteit,https://github.com/ajcnews/quoteit/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+98255528,Axios,axiosvisuals/2017-07-25-proj-ad-tech-stocks,https://github.com/axiosvisuals/2017-07-25-proj-ad-tech-stocks/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+23389720,BBC,bbc/device_api-android,https://github.com/bbc/device_api-android/,News Interaction Technology,Major,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+404119196,Reuters,reuters-graphics/ai2svelte,https://github.com/reuters-graphics/ai2svelte/,News Production Technology,Minor,External,Non-Technical,No,Yes,No,Yes,No,No,No,No,No
+232170100,Reuters,reuters-graphics/metatagger-webpack-plugin,https://github.com/reuters-graphics/metatagger-webpack-plugin/,News Distribution Technology,Minor,External,Non-Technical,Yes,No,Yes,Yes,No,Yes,No,No,No
+59740444,BBC,bbc/ipr-php-webservicekit,https://github.com/bbc/ipr-php-webservicekit/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+56009570,The South Florida Sun-Sentinel,SunSentinel/leaflet-map-template,https://github.com/SunSentinel/leaflet-map-template/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,Yes,No,No,No,No,No
+179353902,The Minneapolis Star-Tribune,striblab/svelte-talk,https://github.com/striblab/svelte-talk/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+192774384,Pop Sugar,PopSugar/psflex-status-setter,https://github.com/PopSugar/psflex-status-setter/,General-Purpose Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+18444715,Time,TimeMagazine/social-microshare,https://github.com/TimeMagazine/social-microshare/,News Distribution Technology,Minor,External,Non-Technical,Yes,No,No,Yes,Yes,Yes,No,No,No
+400664080,CBS News,cbsinteractive/terraform-provider-azurermfutures,https://github.com/cbsinteractive/terraform-provider-azurermfutures/,General-Purpose Technology,Minor,Internal,Technical,No,Yes,No,Yes,No,No,No,No,No
+325433980,The St. Louis Post-Dispatch,PostDispatchInteractive/trash-update,https://github.com/PostDispatchInteractive/trash-update/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+197443271,The Associated Press,associatedpress/datakit-gitlab,https://github.com/associatedpress/datakit-gitlab/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+1335670,The New York Times,nytimes/nytcampfin,https://github.com/nytimes/nytcampfin/,News Interaction Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes
+35694821,The Hartford Courant,hartfordcourant/google-sheets-table,https://github.com/hartfordcourant/google-sheets-table/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,No,No,No,No
+72147489,The Miami Herald,MiamiHerald/data-viz_miami-dade-foodapps-search,https://github.com/MiamiHerald/data-viz_miami-dade-foodapps-search/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,Yes,Yes,No
+61857369,Vox,voxmedia/kinto_box,https://github.com/voxmedia/kinto_box/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+113218588,The Minneapolis Star-Tribune,striblab/driveshaft-strib,https://github.com/striblab/driveshaft-strib/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+35289830,The Hartford Courant,hartfordcourant/marteka_hiking,https://github.com/hartfordcourant/marteka_hiking/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+326711322,Reuters,reuters-graphics/chart-module-testing-dots,https://github.com/reuters-graphics/chart-module-testing-dots/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,No,No,Yes,No,No,No
+39973229,Refinery29,refinery29/php-cs-fixer-config,https://github.com/refinery29/php-cs-fixer-config/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+119445693,The Houston Chronicle,Houston-Chronicle/2018-top100,https://github.com/Houston-Chronicle/2018-top100/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+23672132,The Denver Post,denverpost/felix,https://github.com/denverpost/felix/,News Production Technology,Major,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+155078557,VICE,VICEMedia/advanced-typescript,https://github.com/VICEMedia/advanced-typescript/,Education and Events,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+241993397,The Dallas Morning News,DallasMorningNews/elections-results-homepage-embed,https://github.com/DallasMorningNews/elections-results-homepage-embed/,News Production Technology,Minor,Internal,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+290612437,BuzzFeed,BuzzFeedNews/2020-08-nypd-march,https://github.com/BuzzFeedNews/2020-08-nypd-march/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+158432808,Slate,slategroup/Amplitude-Data-Munging-,https://github.com/slategroup/Amplitude-Data-Munging-/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+375171655,NJ Local News,njam-data/slack-data-pipeline-monitor,https://github.com/njam-data/slack-data-pipeline-monitor/,General-Purpose Technology,Minor,Internal,Non-Technical,No,No,Yes,Yes,No,Yes,No,No,No
+39637985,NBC News,nbcnews/okra-testdata,https://github.com/nbcnews/okra-testdata/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+158614568,The Houston Chronicle,Houston-Chronicle/2018-regional-ballot,https://github.com/Houston-Chronicle/2018-regional-ballot/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+387892013,CBS News,cbsinteractive/set-tfc-workspace-variables,https://github.com/cbsinteractive/set-tfc-workspace-variables/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+75952976,Vox,voxmedia/eslint-config-voxproduct,https://github.com/voxmedia/eslint-config-voxproduct/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,Yes,No,No,No
+7899386,Refinery29,refinery29/scrubber,https://github.com/refinery29/scrubber/,News Interaction Technology,Minor,Internal,Non-Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+152286854,The Minneapolis Star-Tribune,striblab/2018-midterm-results,https://github.com/striblab/2018-midterm-results/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+24470183,Bleacher Report,br/docker-rubyapp,https://github.com/br/docker-rubyapp/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+99821776,Axios,axiosvisuals/2017-08-09-proj-worlds-richest,https://github.com/axiosvisuals/2017-08-09-proj-worlds-richest/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+116877571,Refinery29,refinery29/ansible-node-role,https://github.com/refinery29/ansible-node-role/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,No,No,No,No
+87857774,The Miami Herald,MiamiHerald/alexa-skill,https://github.com/MiamiHerald/alexa-skill/,News Interaction Technology,Major,External,Non-Technical,Yes,Yes,No,No,No,Yes,No,No,No
+1272609,The Atlantic,theatlantic/django-fatpages,https://github.com/theatlantic/django-fatpages/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+89939777,NBC News,nbcnews/storygist,https://github.com/nbcnews/storygist/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+62254296,The Denver Post,denverpost/juvenile-justice,https://github.com/denverpost/juvenile-justice/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+59854670,NBC News,nbcnews/NMW,https://github.com/nbcnews/NMW/,News Distribution Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+51077234,CNN,cnnlabs/cnn-metrics,https://github.com/cnnlabs/cnn-metrics/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,Yes,No,No,Yes,No,No,No
+134905961,The Denver Post,denverpost/nled,https://github.com/denverpost/nled/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,No,No,No,No,No,No,No
+40978510,USA Today,USATODAY/va-vacancies,https://github.com/USATODAY/va-vacancies/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,No,No,No,Yes,No,No,No
+59693055,USA Today,USATODAY/spelling-bee-2016,https://github.com/USATODAY/spelling-bee-2016/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+98661436,Tampa Bay Times,tbtimes/Analytic2017,https://github.com/tbtimes/Analytic2017/,Education and Events,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+69587112,The Washington Post,washingtonpost/amazon-cross-account-kinesis-client-nodejs,https://github.com/washingtonpost/amazon-cross-account-kinesis-client-nodejs/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+36514727,The Hartford Courant,hartfordcourant/ctnow_blarkers,https://github.com/hartfordcourant/ctnow_blarkers/,Unclear,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+58649963,The Milwaukee Journal-Sentinel,datahub/walkerTracker-frontend,https://github.com/datahub/walkerTracker-frontend/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+174898629,VICE,VICEMedia/gdi-typescript-day2,https://github.com/VICEMedia/gdi-typescript-day2/,Education and Events,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,Yes,No,No,No
+151505966,Politico,The-Politico/politico-2018-district-similarity-maps,https://github.com/The-Politico/politico-2018-district-similarity-maps/,Education and Events,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,Yes,Yes,No,No,No
+116057831,The Milwaukee Journal-Sentinel,datahub/up-north,https://github.com/datahub/up-north/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+216846999,Gizmodo,gawkermedia/kinja-curl,https://github.com/gawkermedia/kinja-curl/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,No,No,No,No,No,No
+61321526,Bleacher Report,bleacherreport/account_kit,https://github.com/bleacherreport/account_kit/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+185679278,Vox,voxmedia/fse-senior-public,https://github.com/voxmedia/fse-senior-public/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,Yes,No,No,No,No
+184781650,Vox,voxmedia/environment-owlpaper-production,https://github.com/voxmedia/environment-owlpaper-production/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,Yes,No,No,No,No,No
+30648565,Gizmodo,gawkermedia/slack-notifier,https://github.com/gawkermedia/slack-notifier/,General-Purpose Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+202571072,NBC News,nbcnews/renovate-config,https://github.com/nbcnews/renovate-config/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+125890307,The Daily Beast,dailybeast/react-media-query,https://github.com/dailybeast/react-media-query/,News Distribution Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+174578457,The New York Times,nytimes/library,https://github.com/nytimes/library/,Education and Events,Major,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+65737738,Tampa Bay Times,tbtimes/lede-core-bits,https://github.com/tbtimes/lede-core-bits/,News Production Technology,Minor,External,Non-Technical,Yes,No,No,No,No,No,No,No,No
+27560499,The Seattle Times,seattletimes/prison-map,https://github.com/seattletimes/prison-map/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+69484848,The Miami Herald,MiamiHerald/data-viz_fl-economic-insecurity,https://github.com/MiamiHerald/data-viz_fl-economic-insecurity/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,Yes,No
+8223541,The Guardian,guardian/gu-in-review,https://github.com/guardian/gu-in-review/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+152288023,The Atlantic,theatlantic/nginxconf-2018,https://github.com/theatlantic/nginxconf-2018/,Education and Events,Minor,External,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+11214773,NPR,npr/taskscheduler,https://github.com/npr/taskscheduler/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+367088393,Bustle,bustle/graphql-loader,https://github.com/bustle/graphql-loader/,News Distribution Technology,Minor,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+56404475,The St. Paul Pioneer Press,pioneerpress/code,https://github.com/pioneerpress/code/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No
+63886096,Tampa Bay Times,tbtimes/3d-story,https://github.com/tbtimes/3d-story/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+52128768,The Seattle Times,seattletimes/mlb-scraper,https://github.com/seattletimes/mlb-scraper/,News Production Technology,Minor,External,Technical,Yes,No,No,Yes,No,Yes,No,No,No
+34862637,BBC,bbc/rd-taster-harness,https://github.com/bbc/rd-taster-harness/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,No,No,No,No
+147712798,The Philadelphia Inquirer,phillymedia/fall-arts-guide,https://github.com/phillymedia/fall-arts-guide/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+36093110,The Hartford Courant,hartfordcourant/colt_park,https://github.com/hartfordcourant/colt_park/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+4457912,Bleacher Report,br/hello,https://github.com/br/hello/,Other,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+34065496,The Associated Press,associatedpress/ailurus,https://github.com/associatedpress/ailurus/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+39651811,The Wall Street Journal,WSJ/cardkit-watermark,https://github.com/WSJ/cardkit-watermark/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes
+44392755,The Baltimore Sun,baltimore-sun-data/gallery-map-template,https://github.com/baltimore-sun-data/gallery-map-template/,News Production Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+121461732,Bustle,bustle/mobiledoc-vdom-renderer,https://github.com/bustle/mobiledoc-vdom-renderer/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+51404334,The New York Times,nytimes/ingredient-phrase-tagger,https://github.com/nytimes/ingredient-phrase-tagger/,News Production Technology,Major,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+76578898,The Miami Herald,MiamiHerald/data-viz_miami-dade-housing-costs,https://github.com/MiamiHerald/data-viz_miami-dade-housing-costs/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,Yes,No
+143920664,Reuters,ReutersTV/RCETest,https://github.com/ReutersTV/RCETest/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+114807147,Politico,The-Politico/simple-bundler,https://github.com/The-Politico/simple-bundler/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,No,No,Yes,No,No,No
+63256507,The Orlando Sentinel,OrlandoSentinel/react-leaflet-iscroll-point-map,https://github.com/OrlandoSentinel/react-leaflet-iscroll-point-map/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+9781360,The Los Angeles Times,datadesk/tilemill-staticmaps,https://github.com/datadesk/tilemill-staticmaps/,News Production Technology,Minor,External,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+335762799,FiveThirtyEight,fivethirtyeight/superbowl-ads,https://github.com/fivethirtyeight/superbowl-ads/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+335015930,Reuters,reuters-graphics/bluprint_Olympics,https://github.com/reuters-graphics/bluprint_Olympics/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+427537876,Atlanta Journal-Constitution,ajcnews/Covid_financial_crisis,https://github.com/ajcnews/Covid_financial_crisis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No
+51329075,The Boston Globe,BostonGlobe/2016-02-08_snowfall_map,https://github.com/BostonGlobe/2016-02-08_snowfall_map/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+104223598,The Wall Street Journal,WSJ/hurricane-helper,https://github.com/WSJ/hurricane-helper/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+4487318,Chicago Tribune,newsapps/gallery,https://github.com/newsapps/gallery/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,No,No,No,No
+116028464,Politico,The-Politico/politico-civic,https://github.com/The-Politico/politico-civic/,News Production Technology,Major,External,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+68408454,CNN,cnnlabs/injectorjs,https://github.com/cnnlabs/injectorjs/,News Distribution Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,No,No,No,No,No
+142938614,FiveThirtyEight,fivethirtyeight/russian-troll-tweets,https://github.com/fivethirtyeight/russian-troll-tweets/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+8856838,BBC,bbc/talexample,https://github.com/bbc/talexample/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+73237774,The Washington Post,washingtonpost/nginx-aws-lambda,https://github.com/washingtonpost/nginx-aws-lambda/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+69379571,The Miami Herald,MiamiHerald/data-viz_starter,https://github.com/MiamiHerald/data-viz_starter/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,No,No,Yes,Yes,No
+58659264,The Milwaukee Journal-Sentinel,datahub/crime-frontend,https://github.com/datahub/crime-frontend/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+344203354,USA Today,USATODAY/covid-variants,https://github.com/USATODAY/covid-variants/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+67360237,CNN,cnnlabs/passive-events,https://github.com/cnnlabs/passive-events/,News Interaction Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+52485819,Pop Sugar,PopSugar/cloud-hostnames,https://github.com/PopSugar/cloud-hostnames/,General-Purpose Technology,Minor,External,Technical,No,No,No,Yes,No,No,No,No,No
+37747508,The Wall Street Journal,WSJ/pinpoint,https://github.com/WSJ/pinpoint/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+32747117,New York Magazine,nymag/lodash-ny-util,https://github.com/nymag/lodash-ny-util/,General-Purpose Technology,Minor,External,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+51035007,CNN,cnnlabs/cnn-hapi,https://github.com/cnnlabs/cnn-hapi/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+89496116,The Minneapolis Star-Tribune,striblab/20161111-pomo_mnflips,https://github.com/striblab/20161111-pomo_mnflips/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+49241704,FiveThirtyEight,fivethirtyeight/d3-pre-cli,https://github.com/fivethirtyeight/d3-pre-cli/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+39305403,Time,TimeMagazine/presidential-election-results,https://github.com/TimeMagazine/presidential-election-results/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+37088652,Bloomberg,BloombergMedia/whatiscode,https://github.com/BloombergMedia/whatiscode/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,Yes,No,Yes
+126509289,Gizmodo,gawkermedia/table,https://github.com/gawkermedia/table/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,Yes,No,No
+196285497,FiveThirtyEight,fivethirtyeight/candidate-emails,https://github.com/fivethirtyeight/candidate-emails/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+62726954,FiveThirtyEight,fivethirtyeight/guns-data,https://github.com/fivethirtyeight/guns-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+93066457,The Guardian,guardian/interactive-beeswarms,https://github.com/guardian/interactive-beeswarms/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+54665824,The Milwaukee Journal-Sentinel,datahub/developmentsDatabase-frontend,https://github.com/datahub/developmentsDatabase-frontend/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+44988141,Bustle,bustle/api-gateway-copy-method,https://github.com/bustle/api-gateway-copy-method/,General-Purpose Technology,Minor,External,Technical,No,No,No,Yes,No,Yes,No,No,No
+179297409,The Guardian,guardian/interactive-atom-swimming,https://github.com/guardian/interactive-atom-swimming/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
+175496206,Bustle,bustle/coloring-palette,https://github.com/bustle/coloring-palette/,General-Purpose Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+97154273,The New York Daily News,nydailynews/make-a-little-money,https://github.com/nydailynews/make-a-little-money/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,No,No,No,No,Yes,No,No,No
+333255719,Reuters,reuters-graphics/chart-module-parliament-chart,https://github.com/reuters-graphics/chart-module-parliament-chart/,News Production Technology,Minor,Internal,Non-Technical,No,Yes,No,No,No,Yes,No,No,No
+408883781,CBS News,cbsinteractive/tfc-cli,https://github.com/cbsinteractive/tfc-cli/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+164875325,Gizmodo,gawkermedia/homebrew-taps,https://github.com/gawkermedia/homebrew-taps/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+4399348,The Washington Post,washingtonpost-archive/django-geodyssey,https://github.com/washingtonpost-archive/django-geodyssey/,News Production Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+61662701,The New York Times,nytimes/mock-ec2-metadata,https://github.com/nytimes/mock-ec2-metadata/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+43919366,Bustle,bustle/ember-sticky-wicket,https://github.com/bustle/ember-sticky-wicket/,News Distribution Technology,Minor,Internal,Technical,No,Yes,Yes,No,No,Yes,No,No,No
+55877177,The St. Louis Post-Dispatch,PostDispatchInteractive/river-gauges,https://github.com/PostDispatchInteractive/river-gauges/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+9784831,Chicago Tribune,newsapps/tarbell-0.8,https://github.com/newsapps/tarbell-0.8/,News Production Technology,Major,External,Non-Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+156440157,The Atlantic,theatlantic/kruxpy,https://github.com/theatlantic/kruxpy/,News Distribution Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+42942704,Gizmodo,gawkermedia/webpack-closure-i18n,https://github.com/gawkermedia/webpack-closure-i18n/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,Yes,Yes,Yes,No,No,No,No
+358008789,Reuters,reuters-graphics/chart-module-polling-lines,https://github.com/reuters-graphics/chart-module-polling-lines/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,No,Yes,Yes,No,No,No
+55613283,NPR,nprapps/sanctuary-cities,https://github.com/nprapps/sanctuary-cities/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+92900760,The Milwaukee Journal-Sentinel,datahub/summerfest-schedule-2017,https://github.com/datahub/summerfest-schedule-2017/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,No,No,No
+121794766,The Houston Chronicle,Houston-Chronicle/2018-primaries-voters-guide,https://github.com/Houston-Chronicle/2018-primaries-voters-guide/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+93654532,Axios,axiosvisuals/health-care-employment-choropleth,https://github.com/axiosvisuals/health-care-employment-choropleth/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+40996769,The Denver Post,denverpost/animas-before-after,https://github.com/denverpost/animas-before-after/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+91502977,CNN,cnnlabs/eslint-config-cnn-starter-app,https://github.com/cnnlabs/eslint-config-cnn-starter-app/,General-Purpose Technology,Minor,Internal,Technical,No,No,Yes,No,No,No,No,No,No
+163855486,The Buffalo News,buffalo-news/geo.bntech.io,https://github.com/buffalo-news/geo.bntech.io/,Unclear,Not Applicable,Not Applicable,Not Applicable,Yes,No,Yes,No,No,No,No,No,No
+7444996,The Atlantic,theatlantic/django-select2-forms,https://github.com/theatlantic/django-select2-forms/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+153130264,The Baltimore Sun,baltimore-sun-data/2018-voter-registration,https://github.com/baltimore-sun-data/2018-voter-registration/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+5901887,Gizmodo,gawkermedia/play2-closure,https://github.com/gawkermedia/play2-closure/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+150176237,The Seattle Times,seattletimes/tax-burden-sans-proval,https://github.com/seattletimes/tax-burden-sans-proval/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,No,No,No,No,No
+189372077,The Guardian,guardian/qa-tools-index,https://github.com/guardian/qa-tools-index/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,Yes,No,No,No
+148497128,NPR,nprapps/nonvoters,https://github.com/nprapps/nonvoters/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+19544006,Refinery29,refinery29/vim-tutorial,https://github.com/refinery29/vim-tutorial/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,Yes,No,No,No
+211757902,The New York Times,nytimes/photon-dev_demo,https://github.com/nytimes/photon-dev_demo/,Education and Events,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No
+230005721,The Atlantic,theatlantic/thumbor-video-engine,https://github.com/theatlantic/thumbor-video-engine/,News Production Technology,Major,External,Non-Technical,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+28905342,New York Magazine,nymag/dollar-slice,https://github.com/nymag/dollar-slice/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+29923995,USA Today,USATODAY/gas-leaks,https://github.com/USATODAY/gas-leaks/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+238471192,Reuters,reuters-graphics/ReutersCharter,https://github.com/reuters-graphics/ReutersCharter/,News Production Technology,Minor,Internal,Technical,No,No,No,No,No,No,No,No,No
+31976256,Time,TimeMagazine/movie-data,https://github.com/TimeMagazine/movie-data/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+129964124,The South Florida Sun-Sentinel,SunSentinel/crime-datamaker,https://github.com/SunSentinel/crime-datamaker/,News Production Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,Yes,No,No,No
+70843294,The Miami Herald,MiamiHerald/data-viz_miami-dade-airbnb,https://github.com/MiamiHerald/data-viz_miami-dade-airbnb/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,Yes,Yes,Yes,No
+158859534,The Houston Chronicle,Houston-Chronicle/2018-local-results,https://github.com/Houston-Chronicle/2018-local-results/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,No,No,No,No
+385781656,NJ Local News,njam-data/njam,https://github.com/njam-data/njam/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,Yes,Yes,No,No,No,No,No
+252887133,The Seattle Times,seattletimes/coronavirus-messaging-reality-timeline,https://github.com/seattletimes/coronavirus-messaging-reality-timeline/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+139903833,The Houston Chronicle,Houston-Chronicle/data-denied,https://github.com/Houston-Chronicle/data-denied/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+30218350,The Los Angeles Times,datadesk/lausd-school-campus-polygons,https://github.com/datadesk/lausd-school-campus-polygons/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+68124690,The Denver Post,denverpost/handheld-issues,https://github.com/denverpost/handheld-issues/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,No,No,No,No
+441794651,Reuters,reuters-graphics/django-graphics-token,https://github.com/reuters-graphics/django-graphics-token/,General-Purpose Technology,Minor,External,Technical,No,No,No,Yes,Yes,Yes,No,No,No
+37747526,The Wall Street Journal,WSJ/pinpoint-editor,https://github.com/WSJ/pinpoint-editor/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+50584846,The Boston Globe,BostonGlobe/2016-01-27_keolis-delays,https://github.com/BostonGlobe/2016-01-27_keolis-delays/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,Yes,No,No,No
+136059790,VICE,VICEMedia/docker-node-chrome,https://github.com/VICEMedia/docker-node-chrome/,General-Purpose Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,No,No,No,No,No
+190448048,The Los Angeles Times,datadesk/prettier-config,https://github.com/datadesk/prettier-config/,News Production Technology,Minor,Internal,Non-Technical,No,No,No,Yes,No,Yes,No,No,No
+180849581,NBC News,nbcnews/SwiftNotifications,https://github.com/nbcnews/SwiftNotifications/,News Interaction Technology,Minor,External,Non-Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+8464182,Bloomberg,bloomberg/phabricator-tools,https://github.com/bloomberg/phabricator-tools/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+49243504,FiveThirtyEight,fivethirtyeight/gulp-d3-pre,https://github.com/fivethirtyeight/gulp-d3-pre/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+126517812,NBC News,nbcnews/iOS-Frameworks,https://github.com/nbcnews/iOS-Frameworks/,News Interaction Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+85330232,The Miami Herald,MiamiHerald/munch-madness,https://github.com/MiamiHerald/munch-madness/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+90154746,The Boston Globe,BostonGlobe/globe-trending,https://github.com/BostonGlobe/globe-trending/,News Distribution Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,Yes,No,No,No
+49235091,Chicago Tribune,newsapps/jobs,https://github.com/newsapps/jobs/,Other,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+187043231,The Buffalo News,buffalo-news/ipFormat,https://github.com/buffalo-news/ipFormat/,General-Purpose Technology,Minor,Internal,Technical,Yes,No,Yes,Yes,No,Yes,No,No,No
+169651583,New York Magazine,nymag/airmail-dockerhub,https://github.com/nymag/airmail-dockerhub/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,No,Yes,No,No,No,No,No
+220080134,The Minneapolis Star-Tribune,striblab/20191106-st_paul_trash,https://github.com/striblab/20191106-st_paul_trash/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+27009697,Tampa Bay Times,tbtimes/panda_hacks,https://github.com/tbtimes/panda_hacks/,News Production Technology,Minor,Internal,Non-Technical,Yes,No,No,Yes,No,No,No,No,No
+392085841,Axios,axioscode/axios-fe-exercise,https://github.com/axioscode/axios-fe-exercise/,Other,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,Yes,Yes,Yes,No,No,No
+17487895,NPR,nprapps/borders-map,https://github.com/nprapps/borders-map/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+153839441,VICE,VICEMedia/nginx-s3,https://github.com/VICEMedia/nginx-s3/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,Yes,No,No,No,No,No
+245164923,FiveThirtyEight,fivethirtyeight/nba-player-advanced-metrics,https://github.com/fivethirtyeight/nba-player-advanced-metrics/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+3732051,Slate,slategroup/tsg-analytics-plugin,https://github.com/slategroup/tsg-analytics-plugin/,News Distribution Technology,Minor,Internal,Technical,Yes,No,No,No,No,No,No,No,No
+410318403,NJ Local News,njam-data/assets,https://github.com/njam-data/assets/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,No,Yes,No,No,No
+90197070,The New York Times,nytimes/gcs-helper,https://github.com/nytimes/gcs-helper/,General-Purpose Technology,Minor,External,Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+294224689,Politico,politico/vue-accessible-selects,https://github.com/politico/vue-accessible-selects/,News Interaction Technology,Minor,Internal,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+33201149,Chicago Tribune,newsapps/python-chicago-elections,https://github.com/newsapps/python-chicago-elections/,News Production Technology,Minor,External,Non-Technical,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+86849910,Bloomberg,bloomberg/ckan-extensions,https://github.com/bloomberg/ckan-extensions/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+387610153,CBS News,cbsinteractive/check-tfc-workspace-existence-action,https://github.com/cbsinteractive/check-tfc-workspace-existence-action/,General-Purpose Technology,Minor,External,Technical,No,Yes,Yes,Yes,Yes,Yes,No,No,No
+115826899,The Washington Post,wpinvestigative/federal_employees_trump_2017,https://github.com/wpinvestigative/federal_employees_trump_2017/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+88078436,The Oregonian,TheOregonian/PPS,https://github.com/TheOregonian/PPS/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+116429865,Tampa Bay Times,tbtimes/florida-police-shooting-data,https://github.com/tbtimes/florida-police-shooting-data/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,Yes,Yes,No,No,No,No
+134749164,Politico,The-Politico/politico-botshot,https://github.com/The-Politico/politico-botshot/,News Distribution Technology,Minor,Internal,Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+68764656,The Washington Post,washingtonpost/docker-kafka,https://github.com/washingtonpost/docker-kafka/,General-Purpose Technology,Minor,External,Technical,No,Yes,No,Yes,Yes,Yes,No,No,No
+126237256,The Minneapolis Star-Tribune,striblab/strib-icons,https://github.com/striblab/strib-icons/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+63089762,VICE,VICEMedia/daily-vice-android-player,https://github.com/VICEMedia/daily-vice-android-player/,News Interaction Technology,Minor,Internal,Non-Technical,No,Yes,No,Yes,No,No,No,No,No
+99033226,The Seattle Times,seattletimes/profanity-peak,https://github.com/seattletimes/profanity-peak/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,No,No,No,No,No,No
+49670933,The Boston Globe,BostonGlobe/2016_primaries_smt,https://github.com/BostonGlobe/2016_primaries_smt/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,Yes,Yes,No,Yes,No,No,No
+27558443,The St. Louis Post-Dispatch,PostDispatchInteractive/stl100-2015,https://github.com/PostDispatchInteractive/stl100-2015/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+289401271,The San Diego Union-Tribune,sdut-datadesk/asylum,https://github.com/sdut-datadesk/asylum/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
+103697717,The Milwaukee Journal-Sentinel,datahub/ggmjs,https://github.com/datahub/ggmjs/,News Production Technology,Minor,Internal,Non-Technical,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+28414747,USA Today,USATODAY/arrest-rates,https://github.com/USATODAY/arrest-rates/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,Yes,No,No,No
+153342598,The Minneapolis Star-Tribune,striblab/20181027-bluewave,https://github.com/striblab/20181027-bluewave/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,No,No,No,No,No,No,No,No
+122356972,The Philadelphia Inquirer,phillymedia/TRASH18,https://github.com/phillymedia/TRASH18/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+33219865,USA Today,USATODAY/spring-clean,https://github.com/USATODAY/spring-clean/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+85875248,The San Francisco Chronicle,sfchronicle/ca-migration,https://github.com/sfchronicle/ca-migration/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+127933822,The New York Daily News,nydailynews/mets-misery-index,https://github.com/nydailynews/mets-misery-index/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+37792845,The St. Louis Post-Dispatch,PostDispatchInteractive/one-st-louis,https://github.com/PostDispatchInteractive/one-st-louis/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,Yes,Yes,No,Yes,No,No,No,No,No
+4599913,Bleacher Report,br/hello-nodejs,https://github.com/br/hello-nodejs/,Unclear,Not Applicable,Not Applicable,Not Applicable,No,No,No,No,No,No,No,No,No
+140492162,The New York Daily News,nydailynews/jaden-smith-was-here,https://github.com/nydailynews/jaden-smith-was-here/,News Production Materials,Not Applicable,Not Applicable,Not Applicable,No,Yes,No,No,No,No,No,No,No
