@@ -1,0 +1,78 @@
+---
+title: "Sample Generation Script for: Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration"
+author: "Rodrigo Zamith"
+output:
+  html_document:
+    df_print: paged
+    theme: spacelab
+    highlight: pygment
+---
+
+### Introduction
+
+This document contains the R code used to generate the samples for the intercoder reliability assessment and the eventual manual content analysis for the study titled, "Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration."
+
+The document begins by showing how the data were loaded and the transformations that were performed. It then shows how the random sample of 100 repositories was generated for the intercoder reliability assessment. It concludes by showing how the stratified random sample (with a maximum of 15 repositories per organization) was generated for the final data analysis, once intercoder reliability was established.
+
+Please note that the files that result from executing this script will differ from the reported files because the generation process calls for randomization.
+
+### Load the data
+
+```{r}
+library(tidyverse)
+
+# Load list of organizations
+list_of_orgs <- read_csv("../data/list_of_orgs.csv") %>%
+  rename(org_name=`Organization Name`, org_type=`Organization Type`, org_url=`Organization URL`, org_parent=`Parent Organization`, org_has_github=`Has GitHub Account`, org_username=`Accounts`, org_notes=`Notes`) %>%
+  mutate(org_name=case_when(
+    !is.na(org_parent) ~ org_parent,
+    TRUE ~ org_name)) %>% # Take on the parent organization name
+  separate_rows(org_username, sep=",\\s+") %>% # Create separate rows when there are multiple accounts
+  mutate(org_username=str_remove_all(org_username, coll("https://github.com/"))) # Strip the URL prefix so we can match account names
+
+# Load repo data
+repo_data <- read_csv("../data/analysis_data/repo.csv") %>%
+  mutate(join_col=tolower(owner.login)) %>% # We need to create temporary variables to account for case sensitivity differences in the original (manual) review of organizations
+  left_join(list_of_orgs %>% select(org_name, org_type, org_username) %>% mutate(join_col=tolower(org_username)), by="join_col") %>%
+  select(-join_col) %>%
+  filter(created_at <= "2021-12-31 23:59:59") %>% # Exclude repos before the end of 2021
+  filter(size > 0) %>% # Exclude empty repos
+  filter(!str_detect(name, coll(".github.io"))) # Exclude .github.io pages
+```
+
+### Generate a random sample for intercoder reliability testing
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  slice_sample(n=100) %>%
+  mutate(link=paste0("https://github.com/", full_name, "/")) %>%
+  select(id, org_name, full_name, link) %>%
+  write_csv("../data/analysis_data/intercoder_reliability_data_uncoded.csv")
+```
+
+### Generate a stratified random sample for data analysis
+
+```{r}
+few_repos <- repo_data %>%
+  filter(fork==FALSE) %>%
+  count(org_name) %>%
+  filter(n <= 15) %>%
+  pull(org_name)
+
+repo_data %>%
+  filter(!org_name %in% few_repos) %>%
+  filter(fork==FALSE) %>%
+  group_by(org_name) %>%
+  slice_sample(n=15) %>%
+  ungroup() %>%
+  bind_rows(repo_data %>% filter(org_name %in% few_repos)) %>%
+  filter(fork==FALSE) %>%
+  mutate(randint=rnorm(n())) %>%
+  arrange(randint) %>%
+  select(-randint) %>%
+  mutate(link=paste0("https://github.com/", full_name, "/")) %>%
+  select(id, org_name, full_name, link) %>%
+  write_csv("../data/analysis_data/coded_repos_uncoded.csv")
+```
+

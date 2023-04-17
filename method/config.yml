@@ -1,0 +1,15 @@
+user_config:
+  github_token: "ENTER_API_KEY_HERE" # See: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+  initiate_files: False # Set to True if you want to create a fresh list of repositories when running a script
+  reset_error_log: False # Set to True if you want to reset the error log when running a script
+  api_call_safety: 25 # Pause data collection for the number of API calls to reset when you have reached this many calls remain
+
+# The variables below do not need to be changed
+
+directories:
+  data_directory: "../data/" # Where the scraped data should be stored
+  analysis_directory: "analysis_data/" # Where the processed (analysis) data are stored
+
+files:
+  list_of_organizations: "list_of_orgs.csv" # A CSV file with all of the organizations you want to get a repository listing from
+  list_of_repositories: "list_of_repos.csv" # A CSV file with all of the repositories you want to scrape detailed information from

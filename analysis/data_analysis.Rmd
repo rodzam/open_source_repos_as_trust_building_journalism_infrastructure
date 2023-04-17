@@ -1,0 +1,846 @@
+---
+title: "Data Analysis for: Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration"
+author: "Rodrigo Zamith"
+output:
+  html_document:
+    df_print: paged
+    theme: spacelab
+    highlight: pygment
+---
+
+## Introduction
+
+This document contains the R code used to perform all of the data analysis reported in the paper titled, "Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration."
+
+The document begins by showing how the data were loaded and the transformations that were performed. It then goes through each research question and hypothesis from the study, presenting the relevant section from the "Findings" section of the paper and showing of the analyses associated with that section.
+
+### Load the packages
+
+```{r}
+# Set settings
+options(scipen = 999)
+
+# Load libraries
+library(jsonlite)
+library(tidyverse)
+library(lubridate)
+library(scales)
+library(gridExtra)
+```
+
+### Load the data
+
+```{r}
+# Load list of organizations
+list_of_orgs <- read_csv("../data/list_of_orgs.csv") %>%
+  rename(org_name=`Organization Name`, org_type=`Organization Type`, org_url=`Organization URL`, org_parent=`Parent Organization`, org_has_github=`Has GitHub Account`, org_username=`Accounts`, org_notes=`Notes`) %>%
+  mutate(org_name=case_when(
+    !is.na(org_parent) ~ org_parent,
+    TRUE ~ org_name)) %>% # Take on the parent organization name
+  separate_rows(org_username, sep=",\\s+") %>% # Create separate rows when there are multiple accounts
+  mutate(org_username=str_remove_all(org_username, coll("https://github.com/"))) # Strip the URL prefix so we can match account names
+
+# Load repo data
+repo_data <- read_csv("../data/analysis_data/repo.csv") %>%
+  mutate(join_col=tolower(owner.login)) %>% # We need to create temporary variables to account for case sensitivity differences in the original (manual) review of organizations
+  left_join(list_of_orgs %>% select(org_name, org_type, org_username) %>% mutate(join_col=tolower(org_username)), by="join_col") %>%
+  select(-join_col) %>%
+  filter(created_at <= "2021-12-31 23:59:59") %>% # Exclude repos before the end of 2021
+  filter(size > 0) %>% # Exclude empty repos
+  filter(!str_detect(name, coll(".github.io"))) # Exclude .github.io pages
+
+# Create a list of repos created before the end of 2021 to filter out other data
+repos_to_keep <- unique(repo_data$full_name)
+
+# Load contributor data
+contributor_data <- read_csv("../data/analysis_data/contributors.csv") %>%
+  filter(contributor_id != "!!!ERROR!!!") %>%
+  left_join(repo_data %>% select(id, full_name, fork, org_name, org_type), by="id") %>%
+  rowwise() %>%
+  mutate(contributor_name=fromJSON(contributor_info)[[1]]) %>%
+  select(-contributor_info) %>%
+  filter(full_name %in% repos_to_keep)
+
+# Load fork descendant data
+fork_descendant_data <- read_csv("../data/analysis_data/fork_descendants.csv") %>%
+  left_join(repo_data %>% select(full_name, org_name, org_type), by=c("parent_full_name"="full_name")) %>%
+  filter(parent_full_name %in% repos_to_keep)
+
+# Load issue data
+issue_data <- read_csv("../data/analysis_data/issues.csv") %>%
+  filter(pull_request=="FALSE") %>%
+  left_join(repo_data %>% select(full_name, org_name, org_type), by="full_name") %>%
+  filter(full_name %in% repos_to_keep)
+
+# Load pull data
+pull_data <- read_csv("../data/analysis_data/pulls.csv") %>%
+  left_join(repo_data %>% select(full_name, org_name, org_type), by="full_name") %>%
+  filter(full_name %in% repos_to_keep)
+
+# Load human-coded data
+coded_repos <- read_csv("../data/analysis_data/coded_repos.csv") %>%
+  mutate(type_techormaterial = case_when(
+    type %in% c("General-Purpose Technology", "News Distribution Technology", "News Production Technology", "News Interaction Technology") ~ "Technology",
+    type %in% c("News Production Materials", "Education and Events") ~ "Materials",
+    TRUE ~ "Other"
+  )) %>% # Create a new variable to distinguish technology from materials
+  mutate(amb_badgerelpkg=case_when(
+    type_techormaterial == "Technology" ~ amb_badgerelpkg,
+    TRUE ~ NA_character_
+  )) # Recode the badges, releases, and packages variable to only apply to Technologies
+```
+
+## Research Question #1
+
+The first research question asked about the extent of the use of GitHub among prominent news outlets that appeal to U.S. audiences.
+
+Out of the 124 organizations examined, 77 (62.1%) had at least one institutional account on GitHub. However, nine of those organizations did not have a single public repository. In other words, the GitHub account associated with their organization was either a placeholder or all development occurred within private repositories. Another three organizations did not have a single original (i.e., not forked from another account) repository.
+
+There were several organizations that made extensive use of GitHub, though. Collectively, there were 6,827 repositories, 5,342 (78.2%) of which were original. Forty-three of the organizations (34.7%) had more than 10 original repositories in the dataset, with organizations like The Guardian, BBC, and The Seattle Times having the greatest number of such repositories (see Figure 2). Among those 43 outlets, the median number of original repositories was 52 and the median number of all repositories (forked and original) was 73. Thus, the organizations that were active on GitHub used it both to develop original projects and to connect with projects initiated by other actors.
+
+### Associated Analyses
+
+#### How many unique organizations are there?
+
+```{r}
+list_of_orgs %>%
+  distinct(org_name)
+```
+
+#### How many organizations had a GitHub account?
+
+```{r}
+list_of_orgs %>%
+  filter(org_has_github=="Y") %>%
+  distinct(org_name)
+```
+
+#### How many organizations had no repositories?
+
+```{r}
+list_of_orgs %>%
+  filter(org_has_github=="Y") %>%
+  distinct(org_name) %>%
+  left_join(repo_data %>% count(org_name), by="org_name") %>%
+  filter(is.na(n))
+```
+
+#### How many organizations had no *original* repositories?
+
+```{r}
+repo_data %>%
+  group_by(org_name) %>%
+  count(fork) %>%
+  ungroup() %>%
+  complete(org_name, fork=c(TRUE, FALSE), fill=list(n=0)) %>%
+  pivot_wider(id_cols=org_name, names_from=fork, values_from=n) %>%
+  filter(`FALSE`==0)
+```
+
+#### How many repositories are there in the dataset?
+
+```{r}
+repo_data %>%
+  summarize(are_original=sum(fork==FALSE), are_forked=sum(fork==TRUE), total=sum(are_original, are_forked), prop_original=round(are_original/total*100, 1), prop_forked=round(are_forked/total*100, 1))
+```
+
+#### How many accounts had more than 10 original repos?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  count(org_name) %>%
+  filter(n > 10) %>%
+  arrange(desc(n))
+```
+
+#### What was the median number of *original* repositories among the outlets that had at least 10 original repositories?
+
+```{r}
+active_orgs <- repo_data %>%
+  filter(fork==FALSE) %>%
+  count(org_name) %>%
+  filter(n > 10) %>%
+  .$org_name
+
+repo_data %>%
+  filter(org_name %in% active_orgs & fork==FALSE) %>%
+  count(org_name) %>%
+  summarize(median=median(n))
+```
+
+#### What was the median number of *all* repositories among the outlets that had at least 10 original repositories?
+
+```{r}
+repo_data %>%
+  filter(org_name %in% active_orgs) %>%
+  count(org_name) %>%
+  summarize(median=median(n))
+```
+
+#### Which organizations were most prolific? (Figure 2)
+
+```{r}
+tmp_orig_repos <- repo_data %>%
+  filter(fork==FALSE) %>%
+  count(org_name) %>%
+  top_n(15, n) %>%
+  ggplot(aes(x=n, y=fct_reorder(org_name, n), label=scales::comma(n))) +
+    geom_col() +
+    geom_text(hjust=-.1, size=2) +
+    scale_x_continuous(breaks=seq(0, 5000, 250), labels=comma) +
+    labs(x="\nNumber of Original Repositories", y=element_blank()) +
+    theme_bw()
+
+# Create a figure for publication
+tmp_orig_repos
+#ggsave("Figures/Figure 2.png", tmp_orig_repos, height=3, width=7)
+rm(list=ls(pattern="^tmp_"))
+```
+
+
+## Research Question #2
+
+The second research question asked about the kinds of original projects those organizations published on GitHub and the main project scope, use-case scenario, and target audience of their technological innovations.
+
+Of the 737 repositories that were sampled and manually coded, the main project types were News Production Materials (n = 260, 35.3%), General-Purpose Technology (n = 149, 20.2%), News Production Technology (n = 130, 17.6%), News Distribution Technology (n = 83, 11.3%), Education and Events (n = 24, 3.3%), and News Interaction Technology (n = 20, 2.7%). A total of 71 (9.6%) repositories were coded as either Other or Unclear. In other words, 51.8% of the repositories pertained to some kind of technology and 38.5% pertained to materials intended to shed light on news products or otherwise educate different audiences.
+
+The vast majority of the 382 technology-oriented repositories had a minor project scope (n = 345, 90.3%). These included many “starter kits” designed to preload existing technologies and assets to get a project off the ground faster, as well as productivity tools that made it easier to automate simple tasks, access external services in a simplified way, and add specialized functionality to existing technologies. Just 37 (9.7%) repositories had a more ambitious, major project scope. These included a new markup language (with multiple associated tools) designed to yield more portable journalistic content, a utility that made it possible to simultaneously transcode videos into multiple formats, and a static site generator for multimedia news projects. There was a nearly equal split in the use-case scenarios, with 204 (53.4%) being primarily oriented toward internal use (i.e., within the organization) and 178 (46.6%) having clear external applications (i.e., beyond the organization). Most of these technology-oriented repositories targeted technical audiences (n = 235, 61.5%), such as system administrators and database specialists. More than one-third (n = 147, 38.5%) targeted non-technical audiences, such as journalists, editors, and news users.
+
+### Associated Analyses
+
+#### How many repositories were content analyzed?
+
+```{r}
+nrow(coded_repos)
+```
+
+#### What was the distribution of project types?
+
+```{r}
+coded_repos %>%
+  count(type) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1)) %>%
+  arrange(desc(n))
+```
+
+#### What was the distribution of categories after splitting into technology and materials?
+
+```{r}
+coded_repos %>%
+  count(type_techormaterial) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1)) %>%
+  arrange(desc(n))
+```
+
+
+#### What were the scope, use-case scenarios, and primary audience for the technologies?
+
+```{r}
+# Scope
+coded_repos %>%
+  filter(type_techormaterial=="Technology") %>%
+  count(scope) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1)) %>%
+  arrange(desc(n))
+
+# Use-Case Scenario
+coded_repos %>%
+  filter(type_techormaterial=="Technology") %>%
+  count(use_case) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1)) %>%
+  arrange(desc(n))
+
+# Primary Audience
+coded_repos %>%
+  filter(type_techormaterial=="Technology") %>%
+  count(audience) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1)) %>%
+  arrange(desc(n))
+
+# Primary Audience by Technology
+coded_repos %>%
+  filter(type_techormaterial=="Technology") %>%
+  group_by(type) %>%
+  count(audience) %>%
+  mutate(total=sum(n), prop=round(n/total*100, 1))
+```
+
+
+## Research Question #3
+
+The third research question asked about the forms of transparency that manifested within the repositories for those projects.
+
+As shown in Figure 3, two forms of transparency manifested themselves a substantial portion of the time. There was at least one element of ambient transparency in 87.8% of the 737 repositories analyzed, with all possible elements appearing roughly one-third of the time. Similarly, there was at least one element of disclosure transparency in more than three-fourths of the repositories and all three elements appeared more than one-third of the time. However, participatory transparency rarely manifested itself in the repositories, with just 13.2% of repositories having a single element of participatory transparency.
+
+### Associated Analyses
+
+#### What was the cumulative distribution of the three forms of transparency?
+
+```{r}
+tmp_coded_repos_forms <- coded_repos %>%
+  select(full_name, starts_with("amb_"), starts_with("disc_"), starts_with("part_")) %>%
+  pivot_longer(cols=c(starts_with("amb_"), starts_with("disc_"), starts_with("part_")), names_to="type", values_to="value") %>%
+  mutate(transparency_type=case_when(
+    str_starts(type, coll("amb_")) ~ "Ambient",
+    str_starts(type, coll("disc_")) ~ "Disclosure",
+    str_starts(type, coll("part_")) ~ "Participatory",
+    TRUE ~ NA_character_
+  )) %>%
+  group_by(full_name, transparency_type) %>%
+  summarize(yes=sum(ifelse(value=="Yes", 1, 0), na.rm=TRUE), total=sum(ifelse(!is.na(value), 1, 0))) %>%
+  ungroup() %>%
+  mutate(amount=case_when(
+    yes == 0 ~ "None",
+    yes == total ~ "Complete",
+    TRUE ~ "Partial"
+  )) %>%
+  mutate(amount=factor(amount, levels=c("None", "Partial", "Complete"))) %>%
+  group_by(transparency_type) %>%
+  count(amount) %>%
+  ungroup() %>%
+  mutate(total=nrow(coded_repos)) %>%
+  mutate(prop=n/total)
+
+tmp_coded_repos_forms %>%
+  group_by(transparency_type) %>%
+  arrange(transparency_type, desc(amount)) %>%
+  mutate(prop=round(prop*100, 1)) %>%
+  mutate(n_cum=cumsum(n), prop_cum=cumsum(prop)) %>%
+  select(transparency_type, amount, n, n_cum, prop, prop_cum)
+```
+
+#### What was the distribution of the nine elements of transparency?
+
+```{r}
+tmp_coded_repos_elements <- coded_repos %>%
+  select(full_name, starts_with("amb_"), starts_with("disc_"), starts_with("part_")) %>%
+  pivot_longer(cols=c(starts_with("amb_"), starts_with("disc_"), starts_with("part_")), names_to="type", values_to="value") %>%
+  mutate(transparency_type=case_when(
+    str_starts(type, coll("amb_")) ~ "Ambient",
+    str_starts(type, coll("disc_")) ~ "Disclosure",
+    str_starts(type, coll("part_")) ~ "Participatory",
+    TRUE ~ NA_character_
+  )) %>%
+  group_by(type, transparency_type) %>%
+  summarize(n=sum(ifelse(value=="Yes", 1, 0), na.rm=TRUE), total=sum(ifelse(!is.na(value), 1, 0))) %>%
+  ungroup() %>%
+  mutate(prop=n/total) %>%
+  mutate(type=factor(type, levels=c("amb_desc", "amb_links", "amb_badgerelpkg", "disc_description", "disc_features", "disc_usage", "part_message", "part_contact", "part_details"), labels=c("Short Description", "Hyperlinks", "Badges, Rel., Pkg.", "Detailed Descript.", "Feature Docum.", "Usage Instruct.", "Particip. Indicator", "Contact Info.", "Detailed Info.")))
+
+tmp_coded_repos_elements %>%
+  group_by(type) %>%
+  arrange(transparency_type, desc(prop)) %>%
+  mutate(prop=round(prop*100, 1)) %>%
+  select(transparency_type, type, n, prop)
+```
+
+#### What was the distribution of the forms of transparency?
+
+```{r}
+# What was the distribution of the three forms of transparency?
+tmp_types <- tmp_coded_repos_forms %>%
+  ggplot(aes(x=transparency_type, y=prop, fill=fct_reorder(amount, desc(amount)), label=paste0(round(prop*100, 1), "%", "\n(n = ", n, ")"))) +
+    geom_col() +
+    scale_y_continuous(labels=percent, limits=c(0, 1), breaks=seq(0, 1, .1)) +
+    scale_fill_grey(start=.5, end=.9) +
+    geom_text(position=position_stack(vjust=0.5), size=2, lineheight=0.8) +
+    labs(x=element_blank(), y="Proportion of Repositories", fill=element_blank()) +
+    guides(fill=guide_legend(reverse=TRUE)) +
+    theme_bw() +
+    theme(legend.position="bottom", legend.margin=margin(0), legend.box.spacing=unit(0, "pt"))
+
+# What was the distribution of the nine elements of transparency?
+tmp_elements <- tmp_coded_repos_elements %>%
+  ggplot(aes(x=fct_reorder(type, desc(type)), y=prop, group=type, label=paste0(round(prop*100, 1), "%", "\n(n = ", n, ")"))) +
+    coord_flip() +
+    geom_col(position=position_dodge()) +
+    geom_text(hjust=-.1, size=2, lineheight=0.8) +
+    labs(x=element_blank(), y="Proportion of Repositories") +
+    scale_y_continuous(labels=percent, limits=c(0, 1), breaks=seq(0, 1, .2)) +
+    facet_wrap(~transparency_type, strip.position = "top", scales = "free_y", ncol = 1) +
+    theme_bw() +
+    theme(panel.spacing=unit(0, "lines"), 
+         strip.background=element_blank(),
+         strip.placement="outside",
+         strip.text=element_text(face="bold"))
+
+# Create a figure for publication
+grid.arrange(tmp_types, tmp_elements, ncol=2)
+#tmp_transparency <- arrangeGrob(tmp_types, tmp_elements, ncol=2)
+#ggsave("Figures/Figure 3.png", tmp_transparency, height=3, width=7)
+rm(list=ls(pattern="^tmp_"))
+```
+
+
+## Hypothesis #1
+
+The first hypothesis posited that most original repositories would involve little technical and non-technical collaboration, namely by (a) being forked fewer than 10 times; (b) receiving fewer than 25 stars; (c) having no pull requests from external accounts; and (d) having no issues reported by external accounts.
+
+Of the 5,342 original repositories in the data, 93.8% (n = 5,009) were forked fewer than 10 times, 92.6% (n = 4,946) received fewer than 25 stars, 80.5% (n = 4,298) had no pull requests from an external account, and 85.5% (n = 4,569) had no issues reported by an external account. The first hypothesis was therefore supported.
+
+However, some repositories did involve a substantial amount of collaboration. A total of 87 (1.6%) original repositories were forked at least 50 times, with FiveThirtyEight’s ‘data’ repository being forked a remarkable 10,556 times. Additionally, 160 original repositories (3.0%) were starred at least 100 times, with FiveThirtyEight’s ‘data’ repository again leading the way with 15,666 of them. In terms of direct technical collaboration, 127 (2.4%) original repositories received at least 25 pull requests from external accounts, with The Guardian’s ‘frontend’ repository receiving an impressive 4,683 such requests. In terms of direct non-technical collaboration, 82 (1.5%) original repositories had at least 25 issues reported by external accounts, with the BBC’s ‘simorgh’ repository receiving a notable 2,288 such reports.
+
+### Associated Analyses
+
+#### How many of the repositories (a) were forked fewer than 10 times, and (b) had fewer than 25 stars?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  summarize(total_repos=n(), few_forks=sum(forks_count<10), prop_forks=round(few_forks/total_repos*100, 1), few_stargazers=sum(stargazers_count<25), prop_stargazers=round(few_stargazers/total_repos*100, 1))
+```
+
+#### How many repositories (c) had no pull requests from external members?
+
+```{r}
+# Create dataframe with labels for internal/external organizational membership based on the criteria of distinct organizational repos contributed to OR the proportion of organizational contributions they accounted for
+
+## Get number of contributions to distinct organizational repositories
+distinct_contributions_to_org <- contributor_data %>%
+  filter(!str_detect(contributor_name, coll("[bot]")) & !str_detect(contributor_name, coll("-bot")) & !str_detect(contributor_name, coll("-badger")) & contributor_name != "ghost") %>% # Take out bots and the "ghost" placeholder user
+  group_by(org_name, full_name, contributor_name) %>%
+  count(contributor_name) %>%
+  ungroup() %>%
+  group_by(org_name, contributor_name) %>%
+  count(contributor_name, name="repos_contributed_to") %>%
+  ungroup()
+
+## Get proportion of contributions to the organization as a whole
+org_total_contributions <- contributor_data %>%
+  filter(!str_detect(contributor_name, coll("[bot]")) & !str_detect(contributor_name, coll("-bot")) & !str_detect(contributor_name, coll("-badger")) & contributor_name != "ghost") %>%
+  group_by(org_name) %>%
+  summarize(org_total_contributions=sum(contributor_contributions)) %>%
+  ungroup()
+
+prop_contributions_to_org <- contributor_data %>%
+  filter(!str_detect(contributor_name, coll("[bot]")) & !str_detect(contributor_name, coll("-bot")) & !str_detect(contributor_name, coll("-badger")) & contributor_name != "ghost") %>%
+  group_by(org_name, contributor_name) %>%
+  summarize(number_of_contributions=sum(contributor_contributions)) %>%
+  left_join(org_total_contributions, by="org_name") %>%
+  mutate(prop_of_contributions=round(number_of_contributions/org_total_contributions*100, 1)) %>%
+  ungroup()
+
+## Create the labeled dataframe that we will keep to reference in the forthcoming analyses based on the two criteria
+org_members <- distinct_contributions_to_org %>%
+  left_join(prop_contributions_to_org, by=c("contributor_name", "org_name")) %>%
+  mutate(org_role = ifelse(repos_contributed_to >= 3 | prop_of_contributions >= 5, "Internal", "External"))
+
+## Remove the other dataframes to not clutter our environment
+rm(distinct_contributions_to_org, org_total_contributions, prop_contributions_to_org)
+```
+
+```{r}
+# Create labeled dataframes for the pull and issue data that includes the organizational membership information based on the aforementioned two criteria and the third criterion of whether GitHub labels the individual as a Member
+
+## Create a labeled dataframe for the pull data
+pull_data_labeled <- pull_data %>%
+  left_join(org_members %>% select(org_name, contributor_name, org_role), by=c("org_name", "pull_user_login"="contributor_name")) %>%
+  mutate(org_role=case_when(
+    pull_author_association == "MEMBER" ~ "Internal",
+    is.na(org_role) ~ "External",
+    TRUE ~ org_role)) %>%
+  filter(!str_detect(pull_user_login, coll("[bot]")) & !str_detect(pull_user_login, coll("-bot")) & !str_detect(pull_user_login, coll("-badger")) & pull_user_login != "ghost")
+
+## Create a labeled dataframe for the issue data
+issue_data_labeled <- issue_data %>%
+  left_join(org_members %>% select(org_name, contributor_name, org_role), by=c("org_name", "issue_user_login"="contributor_name")) %>%
+  mutate(org_role=case_when(
+    issue_author_association == "MEMBER" ~ "Internal",
+    is.na(org_role) ~ "External",
+    TRUE ~ org_role)) %>%
+  filter(!str_detect(issue_user_login, coll("[bot]")) & !str_detect(issue_user_login, coll("-bot")) & !str_detect(issue_user_login, coll("-badger")) & issue_user_login != "ghost")
+```
+
+```{r}
+pull_data_labeled %>%
+  filter(org_role=="External") %>%
+  group_by(full_name) %>%
+  slice(1) %>%
+  ungroup() %>%
+  select(full_name, org_role) %>%
+  full_join(repo_data, by="full_name") %>%
+  filter(fork=="FALSE") %>%
+  mutate(org_role=ifelse(is.na(org_role), "Internal", org_role)) %>%
+  count(org_role) %>%
+  mutate(total=sum(n), prop=round(n/sum(n)*100, 1))
+```
+
+
+#### How many repositories (d) had no issues reported by external members?
+
+```{r}
+issue_data_labeled %>%
+  filter(org_role=="External") %>%
+  group_by(full_name) %>%
+  slice(1) %>%
+  ungroup() %>%
+  select(full_name, org_role) %>%
+  full_join(repo_data, by="full_name") %>%
+  filter(fork=="FALSE") %>%
+  mutate(org_role=ifelse(is.na(org_role), "Internal", org_role)) %>%
+  count(org_role) %>%
+  mutate(total=sum(n), prop=round(n/sum(n)*100, 1))
+```
+
+#### Which repositories received the most collaboration?
+
+```{r}
+# Forks
+repo_data %>%
+  filter(fork==FALSE & forks_count>=50) %>%
+  arrange(desc(forks_count)) %>%
+  select(org_name, name, forks_count)
+
+# Stars
+repo_data %>%
+  filter(fork==FALSE & stargazers_count>=100) %>%
+  arrange(desc(stargazers_count)) %>%
+  select(org_name, name, stargazers_count)
+
+# Pull Requests
+repo_data %>%
+  left_join(pull_data_labeled %>%
+    filter(org_role=="External") %>%
+    group_by(full_name) %>%
+    summarize(number_of_pulls=n()) %>%
+    ungroup(), by="full_name") %>%
+  filter(fork==FALSE & number_of_pulls>=25) %>%
+  arrange(desc(number_of_pulls)) %>%
+  select(org_name, name, number_of_pulls)
+
+# Issues
+repo_data %>%
+  left_join(issue_data_labeled %>%
+    filter(org_role=="External") %>%
+    group_by(full_name) %>%
+    summarize(number_of_issues=n()) %>%
+    ungroup(), by="full_name") %>%
+  filter(fork==FALSE & number_of_issues>=25) %>%
+  arrange(desc(number_of_issues)) %>%
+  select(org_name, name, number_of_issues)
+```
+
+## Hypothesis 2
+
+The second hypothesis posited that the average original repository would have an active lifespan of roughly 17 weeks. The median lifespan was 18.1 weeks and the longest lifespan, The Guardian’s ‘content-api-scala-client’ repository, was 615.4 weeks (11.8 years). The second hypothesis was therefore supported. Notably, if only the repositories that received two or more commits and had a lifespan of two or more days are included—that is, the repositories that received at least some development—then the median lifespan increases threefold to 55.2 weeks, or just over one year.
+
+### Associated analyses
+
+#### What are the range and median amount of time between the creation date of a repository and its last activity?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  mutate(lifespan=as.period(pushed_at-created_at, unit="day")) %>%
+  mutate(lifespan_weeks=lifespan/as.period(dweeks(1))) %>%
+  summarize(min=min(round(lifespan_weeks, 1)), median=median(round(lifespan_weeks, 1)), max=max(round(lifespan_weeks, 1)))
+
+# Seven of the repos had a negative lifespan, which suggests there was a quirk with how they were registered on GitHub. This shouldn't meaningfully alter the results if we take the median, though.
+```
+
+#### Which repository had the longest lifespan?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  mutate(lifespan=as.period(pushed_at-created_at, unit="day")) %>%
+  mutate(lifespan_weeks=lifespan/as.period(dweeks(1))) %>%
+  arrange(desc(lifespan_weeks))
+```
+
+#### What is the median amount of time between the creation date of a repository and its last activity for repositories with at least two contributions and a lifespan of at least two days?
+
+```{r}
+tmp_repos_more_than_2_contributions <- contributor_data %>%
+  group_by(full_name) %>%
+  summarize(total_contributions=sum(contributor_contributions)) %>%
+  filter(total_contributions>=2) %>%
+  .$full_name
+
+repo_data %>%
+  filter(fork==FALSE & full_name %in% tmp_repos_more_than_2_contributions) %>%
+  mutate(lifespan=as.period(pushed_at-created_at, unit="day")) %>%
+  filter(lifespan>=as.period(ddays(2))) %>%
+  mutate(lifespan_weeks=lifespan/as.period(dweeks(1))) %>%
+  summarize(min=min(round(lifespan_weeks, 1)), median=median(round(lifespan_weeks, 1)), max=max(round(lifespan_weeks, 1)))
+rm()
+```
+
+## Hypothesis 3
+
+The third hypothesis posited that most original repositories would not include a copyright license. Of the 5,342 original repositories, 2,992 of them (56.0%) did not list a license. The third hypothesis was therefore supported. As shown in Figure 4, when a license was specified, it tended to be a permissive license open-source license.
+
+### Associated analyses
+
+#### How many repositories had a license?
+
+```{r}
+tmp_repo_licenses <- repo_data %>%
+  filter(fork==FALSE) %>%
+  summarize(has_license=sum(!is.na(license.name)), no_license=sum(is.na(license.name)), total=sum(has_license, no_license), prop_no_license=round(no_license/total*100, 1))
+tmp_repo_licenses
+```
+
+#### Which licenses were most popular?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE & !is.na(license.name)) %>%
+  count(license.name) %>%
+  mutate(prop=round(n/tmp_repo_licenses$has_license*100,1)) %>%
+  arrange(desc(n))
+```
+
+#### Who uses an Other license most often?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE & license.name=="Other") %>%
+  count(org_name) %>%
+  arrange(desc(n))
+```
+
+#### Which licenses were most popular? (Figure 4)
+
+```{r}
+tmp_licenses <- repo_data %>%
+  filter(fork==FALSE & !is.na(license.name)) %>%
+  count(license.name) %>%
+  mutate(prop=n/tmp_repo_licenses$has_license) %>%
+  top_n(10, prop) %>%
+  ggplot(aes(x=fct_reorder(license.name, prop), y=prop, label=paste0(round(prop*100, 1), "% (n = ", n, ")"))) +
+    coord_flip() +  
+    geom_col() +
+    scale_y_continuous(limits=c(0, 1), breaks=seq(0, 1, .1), labels=percent) +
+    geom_text(hjust=-.1, size=3, lineheight=0.8) +
+    labs(x=element_blank(), y="Proportion of Repositories with a License") +
+    theme_bw()
+
+tmp_licenses
+#ggsave("Figures/Figure 4.png", tmp_licenses, height=3, width=7)
+rm(list=ls(pattern="^tmp_"))
+```
+
+## Research Question #4
+
+The fourth research question asked about the prevalence of the use of GitHub by those organizations over time.
+
+The oldest repository in the dataset (the Los Angeles Times’ ‘latimes-mappingla-geopy’) was created on March 18, 2009. As shown in Figure 5, 2012 was a major year in news organizations’ use of GitHub, with 16 organizations publishing their first original repository that year. Indeed, of the 65 organizations that published at least one original repository, 36.9% (n = 24) had done so by the end of 2012 and 81.5% (n = 53) had done so by the end of 2016. Thus, many prominent news organizations have been using GitHub for over a decade now.
+
+The creation of new original repositories picked up notably in 2015 and peaked in 2017, when 883 new repositories were published. Although fewer new repositories were published in subsequent years, GitHub remains actively used. In 2021, for example, 333 new original repositories were published by 31 different outlets.
+
+Regarding collaborative activity, issue reporting activity increased quickly at first, with an initial peak in 2014, when 1,754 issues were reported by external actors. However, such activity slowed through 2017 (1,106 issues) before rebounding with a second peak in 2019 (2,023 issues). In 2021, however, that number slid back down to 931. The number of pull requests by external actors continually rose through 2017 and peaked in 2019, when 5,346 such pull requests were registered. However, the 2,100 requests registered in 2021 was almost equal to the amount registered in 2014. The forking patterns reveal a similar trajectory. There was a continued increase in the number of times an original repository was forked by others through 2018 (5,098 forks). However, there was an unexpected dip in 2019, followed by a peak in 2020 (7,036 forks) and another dip in 2021 (4,777 forks).
+
+### Associated analyses
+
+#### What is the oldest repository in our dataset?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  select(org_name, name, created_at) %>%
+  arrange(created_at) %>%
+  head(5)
+```
+
+#### What is the newest repository in our dataset?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  select(org_name, name, created_at) %>%
+  arrange(desc(created_at)) %>%
+  head(5)
+```
+
+#### What was the cumulative growth of the first original repository published by an outlet?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  group_by(org_name) %>%
+  slice_min(created_at, n=1) %>%
+  ungroup() %>%
+  mutate(created_at_year=year(created_at)) %>%
+  count(created_at_year) %>%
+  mutate(n_cum=cumsum(n)) %>%
+  mutate(prop=round(n_cum/sum(n)*100,1))
+```
+
+#### What was the cumulative growth of all original repositories published by the outlets?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  mutate(created_at_year=year(created_at)) %>%
+  count(created_at_year) %>%
+  mutate(n_cum=cumsum(n)) %>%
+  mutate(prop=round(n_cum/sum(n)*100,1))
+```
+
+#### How many organizations were active during a given year?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE) %>%
+  group_by(year=year(created_at), org_name) %>%
+  count(org_name) %>%
+  ungroup() %>%
+  count(year)
+```
+
+#### Which outlet was most active in 2021?
+
+```{r}
+repo_data %>%
+  filter(fork==FALSE, year(created_at)==2021) %>%
+  count(org_name) %>%
+  arrange(desc(n))
+```
+
+#### How has external issue reporting activity changed over time?
+
+```{r}
+issue_data_labeled %>%
+  filter(org_role=="External") %>%
+  filter(year(issue_created_at) <= 2021) %>%
+  group_by(year=year(issue_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(n_cum=cumsum(n))
+```
+
+#### How has external pull request activity changed over time?
+
+```{r}
+pull_data_labeled %>%
+  filter(org_role=="External") %>%
+  filter(year(pull_created_at) <= 2021) %>%
+  group_by(year=year(pull_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(n_cum=cumsum(n))
+```
+
+#### How has forking changed over time?
+
+```{r}
+fork_descendant_data %>%
+  filter(year(descendant_created_at) <= 2021) %>%
+  group_by(year=year(descendant_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(n_cum=cumsum(n))
+```
+
+
+#### How has the creation of original repositories changed over time? (Figure 5)
+
+```{r}
+# Year of the first original repository
+tmp_overtime_first_count <- repo_data %>%
+  filter(fork==FALSE) %>%
+  group_by(org_name) %>%
+  slice_min(created_at, n=1) %>%
+  ungroup() %>%
+  mutate(created_at_year=year(created_at)) %>%
+  count(created_at_year) %>%
+  mutate(graphic="Year of First Original Repository") %>%
+  ggplot(aes(x=created_at_year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(limits=c(0, 16), breaks=seq(0, 16, 2)) +
+    labs(x=element_blank(), y="# of Organizations") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Number of original repositories created by year
+tmp_overtime_amount_count <- repo_data %>%
+  filter(fork==FALSE) %>%
+  mutate(created_at_year=year(created_at)) %>%
+  count(created_at_year) %>%
+  mutate(graphic="Original Repos Created by Year") %>%
+  ggplot(aes(x=created_at_year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(breaks=seq(0, 900, 100)) +
+    labs(x=element_blank(), y="# of Repositories Created") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Active organizations by year
+tmp_overtime_activeorgs_count <- repo_data %>%
+  filter(fork==FALSE) %>%
+  group_by(created_at_year=year(created_at), org_name) %>%
+  count(org_name) %>%
+  ungroup() %>%
+  count(created_at_year) %>%
+  mutate(graphic="Active Organizations by Year") %>%
+  ggplot(aes(x=created_at_year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(limits=c(0, 45), breaks=seq(0, 45, 5)) +
+    labs(x=element_blank(), y="# of Orgs that Published Orig Repo") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Number of external issue reports by year
+tmp_overtime_issues_count <- issue_data_labeled %>%
+  filter(org_role=="External") %>%
+  filter(year(issue_created_at) <= 2021) %>%
+  group_by(year=year(issue_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(graphic="Issues Reported by Year") %>%
+  ggplot(aes(x=year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(labels=comma, limits=c(0, 2250), breaks=seq(0, 2250, 250)) +
+  labs(x=element_blank(), y="# of Pull Requests by External Actors") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Number of external pull requests by year
+tmp_overtime_pull_count <- pull_data_labeled %>%
+  filter(org_role=="External") %>%
+  filter(year(pull_created_at) <= 2021) %>%
+  group_by(year=year(pull_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(graphic="Pull Requests by Year") %>%
+  ggplot(aes(x=year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(labels=comma, limits=c(0, 5500), breaks=seq(0, 5500, 500)) +
+  labs(x=element_blank(), y="# of Pull Requests by External Actors") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Number of fork descendants by year
+tmp_overtime_fork_descendant_count <- fork_descendant_data %>%
+  filter(year(descendant_created_at) <= 2021) %>%
+  group_by(year=year(descendant_created_at)) %>%
+  count(year) %>%
+  ungroup() %>%
+  mutate(graphic="Number of Forks by Year") %>%
+  ggplot(aes(x=year, y=n)) +
+    geom_line() +
+    facet_wrap(~graphic) +
+    scale_x_continuous(limits=c(2009, 2021), breaks=seq(2009, 2021, 2)) +
+    scale_y_continuous(labels=comma, limits=c(0, 8000), breaks=seq(0, 8000, 1000)) +
+  labs(x=element_blank(), y="# of Forks of Original Repos") +
+    theme_bw() +
+    theme(axis.text.x=element_text(angle=45, hjust=1))
+
+# Create a figure for publication
+grid.arrange(tmp_overtime_first_count, tmp_overtime_amount_count, tmp_overtime_activeorgs_count, tmp_overtime_issues_count, tmp_overtime_pull_count, tmp_overtime_fork_descendant_count, ncol=3)
+#tmp_overtime <- arrangeGrob(tmp_overtime_first_count, tmp_overtime_amount_count, tmp_overtime_activeorgs_count, tmp_overtime_issues_count, tmp_overtime_pull_count, tmp_overtime_fork_descendant_count, ncol=3)
+#ggsave("Figures/Figure 5.png", tmp_overtime, height=6, width=7)
+rm(list=ls(pattern="^tmp_"))
+```

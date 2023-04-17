@@ -1,0 +1,124 @@
+---
+title: "Intercoder Reliability Assessment for: Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration"
+author: "Rodrigo Zamith"
+output:
+  html_document:
+    df_print: paged
+    theme: spacelab
+    highlight: pygment
+---
+
+### Introduction
+
+This document contains the R code used to perform the intercoder reliability assessment for the study titled, "Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration."
+
+Intercoder reliability was performed by having two coders independently code 100 repositories that were randomly sampled from the list of eligible repositories (i.e., those deemed to be *original*).
+
+The document begins by showing how the data were loaded and the transformations that were performed. It then shows the function used to perform the intercoder reliability assessment, which uses the `irr` package to calculate Krippendorff's alpha for nominal variables. It then shows the results for each of the variables used in the manual content analysis.
+
+### Load the data
+
+```{r}
+# Set settings
+options(scipen = 999)
+
+# Load libraries
+library(tidyverse)
+library(irr)
+
+# Load double-coded ICR data
+icr <- read_csv("../data/analysis_data/intercoder_reliability.csv")
+```
+
+### Assess the reliability of each variable using Krippendorff's alpha
+
+```{r}
+# Create a function for calculating ICR
+calc_krip <- function(variable) {
+  icr %>%
+    pivot_wider(id_cols="id", names_from="coder", values_from=variable) %>%
+    select(-id) %>%
+    data.matrix() %>%
+    t() %>%
+    kripp.alpha(method="nominal")
+}
+```
+
+#### Project Type
+
+```{r warning=FALSE}
+calc_krip("type")
+```
+
+#### Project Scope
+
+```{r warning=FALSE}
+calc_krip("scope")
+```
+
+#### Project Use-Case
+
+```{r warning=FALSE}
+calc_krip("use_case")
+```
+
+#### Project Audience
+
+```{r warning=FALSE}
+calc_krip("audience")
+```
+
+#### Short Description (Ambient Transparency)
+
+```{r warning=FALSE}
+calc_krip("amb_desc")
+```
+
+#### Use of Links (Ambient Transparency)
+
+```{r warning=FALSE}
+calc_krip("amb_links")
+```
+
+#### Badges, Releases, and Packages (Ambient Transparency)
+
+```{r warning=FALSE}
+calc_krip("amb_badgerelpkg")
+```
+
+#### Detailed Description (Disclosure Transparency)
+
+```{r warning=FALSE}
+calc_krip("disc_description")
+```
+
+#### Feature Listing (Disclosure Transparency)
+
+```{r warning=FALSE}
+calc_krip("disc_features")
+```
+
+#### Usage Instructions (Disclosure Transparency)
+
+```{r warning=FALSE}
+calc_krip("disc_usage")
+```
+
+#### Participatory Message (Participatory Transparency)
+
+```{r warning=FALSE}
+calc_krip("part_message")
+```
+
+#### Contact Information (Participatory Transparency)
+
+```{r warning=FALSE}
+calc_krip("part_contact")
+```
+
+#### Detailed Instructions (Participatory Transparency)
+
+```{r warning=FALSE}
+calc_krip("part_details")
+```
+
