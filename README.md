@@ -6,7 +6,7 @@ This repository contains all of the source files, data collection scripts, codeb
 
 ### Citation
 
-Zamith, R. (2019). Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration. *Digital Journalism*. Advance Online Publication. https://doi.org/10.1080/21670811.2023.2202873
+Zamith, R. (2023). Open-Source Repositories as Trust-Building Journalism Infrastructure: Examining the Use of GitHub by News Outlets to Promote Transparency, Innovation, and Collaboration. *Digital Journalism*. Advance Online Publication. https://doi.org/10.1080/21670811.2023.2202873
 
 A BibTeX citation is [available here](citation.bib).
 
